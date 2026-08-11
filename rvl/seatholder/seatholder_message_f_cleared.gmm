@@ -1,0 +1,2804 @@
+<?xml version="1.0" encoding="UTF-16" ?>
+<?xml-stylesheet type="text/xsl" href="" ?>
+
+<gmml version="4.7">
+
+<head>
+	<create user="iquegitautomerge" host="iquegitautomerge" date="2009-08-06T09:42:18"/>
+	<generator name="MessageEditor" version="Git"/>
+</head>
+
+<body language="english" generator-check="major-ver.">
+	<color>
+		<list entry="0" r="00" g="00" b="00" a="FF"/>
+		<list entry="1" r="FF" g="00" b="00" a="FF"/>
+		<list entry="2" r="00" g="FF" b="00" a="FF"/>
+		<list entry="3" r="00" g="00" b="FF" a="FF"/>
+	</color>
+
+	<tag-table>
+		<group entry="0" japanese="タググループ" english="Tag Group">
+		</group>
+
+		<group entry="254" japanese="文字列展開" english="Word">
+		</group>
+
+		<set japanese="黒" english="Black" value="FF:00:Color:0"/>
+		<set japanese="赤" english="Red" value="FF:00:Color:1"/>
+		<set japanese="緑" english="Green" value="FF:00:Color:2"/>
+		<set japanese="青" english="Blue" value="FF:00:Color:3"/>
+		<set japanese="500%" english="500%" value="FF:01:Size:500"/>
+		<set japanese="400%" english="400%" value="FF:01:Size:400"/>
+		<set japanese="300%" english="300%" value="FF:01:Size:300"/>
+		<set japanese="200%" english="200%" value="FF:01:Size:200"/>
+		<set japanese="150%" english="150%" value="FF:01:Size:150"/>
+		<set japanese="100%" english="100%" value="FF:01:Size:100"/>
+		<set japanese="75%" english="75%" value="FF:01:Size:75"/>
+		<set japanese="50%" english="50%" value="FF:01:Size:50"/>
+	</tag-table>
+
+	<columns>
+		<id position="0" width="100"/>
+		<group default=" 0:Default" position="1" width="100">
+			<list entry="0" japanese="デフォルト" english="Default" colorID="0"/>
+		</group>
+		<number position="-1" width="100"/>
+		<comment position="2" width="245"/>
+		<erase position="3" width="100"/>
+		<language japanese="Japanese" english="Japanese">
+			<message position="4" width="100"/>
+			<font default=" 0:wbf1" position="16" width="125">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="17" width="184"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="EnglishUS" english="EnglishUS">
+			<message position="5" width="100"/>
+			<font default=" 0:wbf1" position="18" width="145">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="19" width="179"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="EnglishEU" english="EnglishEU">
+			<message position="6" width="100"/>
+			<font default=" 0:wbf1" position="20" width="150">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="21" width="179"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="FrenchEU" english="FrenchEU">
+			<message position="7" width="100"/>
+			<font default=" 0:wbf1" position="22" width="133">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="23" width="183"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="GermanEU" english="GermanEU">
+			<message position="8" width="100"/>
+			<font default=" 0:wbf1" position="24" width="137">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="25" width="199"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="ItalianEU" english="ItalianEU">
+			<message position="9" width="100"/>
+			<font default=" 0:wbf1" position="26" width="167">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="27" width="188"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="SpanishEU" english="SpanishEU">
+			<message position="10" width="100"/>
+			<font default=" 0:wbf1" position="28" width="144">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="29" width="203"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="DutchEU" english="DutchEU">
+			<message position="11" width="100"/>
+			<font default=" 0:wbf1" position="30" width="100">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="31" width="186"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="FrenchUS" english="FrenchUS">
+			<message position="12" width="100"/>
+			<font default=" 0:wbf1" position="32" width="161">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="33" width="173"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="SpanishUS" english="SpanishUS">
+			<message position="13" width="100"/>
+			<font default=" 0:wbf1" position="34" width="183">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1.brfnt"/>
+			</font>
+			<size position="35" width="192"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="ChineseCN" english="ChineseCN">
+			<message position="14" width="100"/>
+			<font default=" 0:wbf1_cn" position="36" width="100">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1_cn.brfnt"/>
+			</font>
+			<size position="37" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="KoreanKR" english="KoreanKR">
+			<message position="15" width="100"/>
+			<font default=" 0:wbf1_kr" position="38" width="100">
+				<list entry="0" file="..\..\Nintendo\seatholder\data\font\wbf1_kr.brfnt"/>
+			</font>
+			<size position="39" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+	</columns>
+
+	<dialog left="318" top="208" right="1425" bottom="893" maximized="no" rayout="Vertical2">
+		<comment-input left="764" top="863" right="1088" bottom="1028" visible="no"/>
+		<tag-palette left="764" top="454" right="1108" bottom="863" visible="no"/>
+		<band id="0" index="0" style="0000" width="496"/>
+		<band id="1" index="1" style="0000" width="165"/>
+		<band id="2" index="2" style="0000" width="286"/>
+		<band id="3" index="3" style="0000" width="130"/>
+		<band id="4" index="4" style="0000" width="1089"/>
+		<edit entry="0" language="Japanese" mode="Edit" spell-check="-1"/>
+		<edit entry="1" language="Japanese" mode="Preview" spell-check="-1"/>
+		<edit entry="2" language="Japanese" mode="Source" spell-check="-1"/>
+		<edit entry="3" language="Japanese" mode="Source" spell-check="-1"/>
+	</dialog>
+
+	<output default="JP">
+		<target japanese="デフォルト" english="JP" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="Japanese">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_J.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="UE" english="UE" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="EnglishUS">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_UE.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="EN" english="EN" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="EnglishEU">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_E.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="FR" english="FR" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="FrenchEU">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_F.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="GE" english="GE" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="GermanEU">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_G.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="IT" english="IT" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="ItalianEU">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_I.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="SP" english="SP" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="SpanishEU">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_S.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="DU" english="DU" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="DutchEU">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_D.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="UF" english="UF" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="FrenchUS">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_UF.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="US" english="US" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="SpanishUS">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_US.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+		<target japanese="CN" english="CN" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="ChineseCN">
+			<group name="Default" file="..\..\Nintendo\seatholder\seatholder_message_C.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset" size="magnification">
+			</struct>
+			<entry sort="id" id-block="yes" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+		</target>
+	</output>
+
+
+	<lock>
+		<operation add_message="no" header_setting="no" tag_setting="no" output_setting="no" display="no" sort="no" flowchart_window="no"/>
+	</lock>
+
+
+	<row id="0000000_0" number="0" back-color=",,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,#404040,,,,,,">
+		<comment>スペース埋めメッセージ</comment>
+		<language name="Japanese"></language>
+		<language name="EnglishUS"></language>
+		<language name="EnglishEU"></language>
+		<language name="FrenchEU"></language>
+		<language name="GermanEU"></language>
+		<language name="ItalianEU"></language>
+		<language name="SpanishEU"></language>
+		<language name="DutchEU"></language>
+		<language name="FrenchUS"></language>
+		<language name="SpanishUS"></language>
+		<language name="ChineseCN"></language>
+		<language name="KoreanKR"></language>
+	</row>
+
+	<row id="0010000_0" number="1" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">はい</language>
+		<language name="EnglishUS" size="90">Yes</language>
+		<language name="EnglishEU" size="90">Yes</language>
+		<language name="FrenchEU" size="90">Oui</language>
+		<language name="GermanEU" size="90">Ja</language>
+		<language name="ItalianEU" size="90">Sì</language>
+		<language name="SpanishEU" size="90">Sí</language>
+		<language name="DutchEU" size="90">Ja</language>
+		<language name="FrenchUS" size="90">Oui</language>
+		<language name="SpanishUS" size="90">Sí</language>
+		<language name="ChineseCN" size="90">是</language>
+		<language name="KoreanKR" size="90">はい</language>
+	</row>
+
+	<row id="0010100_0" number="2" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">いいえ</language>
+		<language name="EnglishUS" size="90">No</language>
+		<language name="EnglishEU" size="90">No</language>
+		<language name="FrenchEU" size="90">Non</language>
+		<language name="GermanEU" size="90">Nein</language>
+		<language name="ItalianEU" size="90">No</language>
+		<language name="SpanishEU" size="90">No</language>
+		<language name="DutchEU" size="90">Nee</language>
+		<language name="FrenchUS" size="90">Non</language>
+		<language name="SpanishUS" size="90">No</language>
+		<language name="ChineseCN" size="90">否</language>
+		<language name="KoreanKR" size="90">いいえ</language>
+	</row>
+
+	<row id="0010200_0" number="3" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">OK</language>
+		<language name="EnglishUS" size="90">OK</language>
+		<language name="EnglishEU" size="90">OK</language>
+		<language name="FrenchEU" size="90">OK</language>
+		<language name="GermanEU" size="90">O.K.</language>
+		<language name="ItalianEU" size="90">OK</language>
+		<language name="SpanishEU" size="90">Aceptar</language>
+		<language name="DutchEU" size="90">Oké</language>
+		<language name="FrenchUS" size="90">OK</language>
+		<language name="SpanishUS" size="90">Aceptar</language>
+		<language name="ChineseCN" size="90">OK</language>
+		<language name="KoreanKR" size="90">OK</language>
+	</row>
+
+	<row id="0010300_0" number="4" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">Wiiメニューへ</language>
+		<language name="EnglishUS" size="90">Wii Menu</language>
+		<language name="EnglishEU" size="90">Wii Menu</language>
+		<language name="FrenchEU" size="90">Menu Wii</language>
+		<language name="GermanEU" size="90">Wii-Menü</language>
+		<language name="ItalianEU" size="90">Menu Wii</language>
+		<language name="SpanishEU" size="90">Menú de Wii</language>
+		<language name="DutchEU" size="90">Wii-menu</language>
+		<language name="FrenchUS" size="90">Menu Wii</language>
+		<language name="SpanishUS" size="90">Menú de Wii</language>
+		<language name="ChineseCN" size="90">Wii菜单</language>
+		<language name="KoreanKR" size="90">Wiiメニューへ</language>
+	</row>
+
+	<row id="0010400_0" number="5" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">Wiiメニューへ</language>
+		<language name="EnglishUS" size="80">Wii Menu</language>
+		<language name="EnglishEU" size="80">Wii Menu</language>
+		<language name="FrenchEU" size="80">Menu Wii</language>
+		<language name="GermanEU" size="80">Wii-Menü</language>
+		<language name="ItalianEU" size="80">Menu Wii</language>
+		<language name="SpanishEU" size="80">Menú de Wii</language>
+		<language name="DutchEU" size="80">Wii-menu</language>
+		<language name="FrenchUS" size="80">Menu Wii</language>
+		<language name="SpanishUS" size="80">Menú de Wii</language>
+		<language name="ChineseCN" size="80">Wii菜单</language>
+		<language name="KoreanKR" size="80">Wiiメニューへ</language>
+	</row>
+
+	<row id="0010500_0" number="6" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">受信ページへ</language>
+		<language name="EnglishUS" size="80">Download</language>
+		<language name="EnglishEU" size="80">Download</language>
+		<language name="FrenchEU" size="80">Télécharger</language>
+		<language name="GermanEU" size="80">Download</language>
+		<language name="ItalianEU" size="80">Download</language>
+		<language name="SpanishEU" size="80">Descargar</language>
+		<language name="DutchEU" size="80">Downloaden</language>
+		<language name="FrenchUS" size="80">Télécharger</language>
+		<language name="SpanishUS" size="80">Descargar</language>
+		<language name="ChineseCN" size="80">受信ページへ</language>
+		<language name="KoreanKR" size="80">受信ページへ</language>
+	</row>
+
+	<row id="0010600_0" number="7" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">設定する</language>
+		<language name="EnglishUS" size="80">Settings</language>
+		<language name="EnglishEU" size="80">Settings</language>
+		<language name="FrenchEU" size="80">Paramètres</language>
+		<language name="GermanEU" size="80">Einstellungen</language>
+		<language name="ItalianEU" size="80">Impostazioni</language>
+		<language name="SpanishEU" size="80">Configuración</language>
+		<language name="DutchEU" size="80">Instellingen</language>
+		<language name="FrenchUS" size="80">Paramètres</language>
+		<language name="SpanishUS" size="80">Configuración</language>
+		<language name="ChineseCN" size="80">設定する</language>
+		<language name="KoreanKR" size="80">設定する</language>
+	</row>
+
+	<row id="0010700_0" number="8" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">やめる</language>
+		<language name="EnglishUS" size="80">Quit</language>
+		<language name="EnglishEU" size="80">Quit</language>
+		<language name="FrenchEU" size="80">Quitter</language>
+		<language name="GermanEU" size="80">Beenden</language>
+		<language name="ItalianEU" size="80">Esci</language>
+		<language name="SpanishEU" size="80">Salir</language>
+		<language name="DutchEU" size="80">Stoppen</language>
+		<language name="FrenchUS" size="80">Quitter</language>
+		<language name="SpanishUS" size="80">Salir</language>
+		<language name="ChineseCN" size="80">やめる</language>
+		<language name="KoreanKR" size="80">やめる</language>
+	</row>
+
+	<row id="0100000_0" number="9" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">データを受信しています…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+		<language name="EnglishUS" size="80">Receiving data...
+
+This may take a few minutes.
+Please be patient.</language>
+		<language name="EnglishEU" size="80">Receiving data...
+
+This may take a few minutes.
+Please wait.</language>
+		<language name="FrenchEU" size="80">Réception des données...
+
+Cette opération peut
+prendre quelques minutes.
+Veuillez patienter.</language>
+		<language name="GermanEU" size="80">Daten werden empfangen...
+
+Dies kann einen Moment in
+Anspruch nehmen.
+Bitte warten.</language>
+		<language name="ItalianEU" size="80">Ricezione dati...
+
+L&apos;operazione potrebbe
+richiedere diversi minuti.</language>
+		<language name="SpanishEU" size="80">Recibiendo datos...
+
+Esta operación podría
+durar unos instantes.
+Por favor, espera.</language>
+		<language name="DutchEU" size="80">Bezig met het ontvangen van
+gegevens...
+
+Even geduld, dit kan een paar
+minuten duren.</language>
+		<language name="FrenchUS" size="80">Réception des données...
+
+Cette opération risque de
+durer quelques minutes.
+
+Veuillez patienter.</language>
+		<language name="SpanishUS" size="80">Recibiendo datos...
+
+Esto puede tardar unos minutos.
+Por favor, espera.</language>
+		<language name="ChineseCN" size="80">データを受信しています…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+		<language name="KoreanKR" size="80">データを受信しています…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+	</row>
+
+	<row id="0100001_0" number="10" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">データを送信しています…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+		<language name="EnglishUS" size="80">Sending data...
+
+This may take a few minutes.
+Please be patient.</language>
+		<language name="EnglishEU" size="80">Sending data...
+
+This may take a few minutes.
+Please wait.</language>
+		<language name="FrenchEU" size="80">Envoi des données...
+
+Cette opération peut
+prendre quelques minutes.
+Veuillez patienter.</language>
+		<language name="GermanEU" size="80">Daten werden gesendet...
+
+Dies kann einen Moment in
+Anspruch nehmen.
+Bitte warten.</language>
+		<language name="ItalianEU" size="80">Invio dati...
+
+L&apos;operazione potrebbe
+richiedere diversi minuti.</language>
+		<language name="SpanishEU" size="80">Enviando datos...
+
+Esta operación podría
+durar unos instantes.
+Por favor, espera.</language>
+		<language name="DutchEU" size="80">Bezig met het versturen van 
+gegevens...
+
+Even geduld, dit kan een paar
+minuten duren.</language>
+		<language name="FrenchUS" size="80">Envoi des données...
+
+Cette opération risque de 
+durer quelques minutes.
+
+Veuillez patienter.</language>
+		<language name="SpanishUS" size="80">Enviando datos...
+
+Esto puede tardar unos minutos.
+Por favor, espera.</language>
+		<language name="ChineseCN" size="80">データを送信しています…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+		<language name="KoreanKR" size="80">データを送信しています…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+	</row>
+
+	<row id="0100002_0" number="11" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">準備中です…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+		<language name="EnglishUS" size="80">Preparing...
+
+This may take a few minutes.
+Please be patient.</language>
+		<language name="EnglishEU" size="80">Preparing...
+
+This may take a few minutes.
+Please wait.</language>
+		<language name="FrenchEU" size="80">Préparation des données...
+
+Cette opération peut
+prendre quelques minutes.
+Veuillez patienter.</language>
+		<language name="GermanEU" size="80">Daten werden vorbereitet...
+
+Dies kann einen Moment in
+Anspruch nehmen.
+Bitte warten.</language>
+		<language name="ItalianEU" size="80">Preparazione...
+
+L&apos;operazione potrebbe
+richiedere alcuni minuti.</language>
+		<language name="SpanishEU" size="80">Preparando datos...
+
+Esta operación podría
+durar unos minutos.
+Por favor, espera.</language>
+		<language name="DutchEU" size="80">Bezig met voorbereiden...
+
+Even geduld, dit kan een paar
+minuten duren.</language>
+		<language name="FrenchUS" size="80">Préparation des données...
+
+Cette opération risque de
+durer quelques minutes.
+
+Veuillez patienter.</language>
+		<language name="SpanishUS" size="80">Preparando datos...
+
+Esto puede tardar unos
+minutos.
+Por favor, espera.</language>
+		<language name="ChineseCN" size="80">準備中です…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+		<language name="KoreanKR" size="80">準備中です…
+
+時間がかかる場合があります。
+しばらくお待ちください。</language>
+	</row>
+
+	<row id="0100100_0" number="12" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">Wii本体保存メモリに問題があるため
+WiiConnect24を使用できません。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">There is a problem with the
+Wii system memory, so 
+WiiConnect24 cannot be used.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">There is a problem with the
+Wii System Memory, so
+WiiConnect24 cannot be used. 
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Un problème de mémoire de la
+console Wii empêche l&apos;utilisation
+de WiiConnect24.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Aufgrund eines Fehlers im
+Speicher der Wii-Konsole ist
+WiiConnect24 nicht verfügbar.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">A causa di un problema di
+memoria della console Wii
+è impossibile utilizzare
+WiiConnect24.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">No se puede usar WiiConnect24
+debido a un problema de la
+memoria de la consola Wii.
+
+Error: </language>
+		<language name="DutchEU" size="80">Je kunt WiiConnect24 niet
+gebruiken vanwege een probleem
+met het interne geheugen van
+het Wii-systeem.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Un problème de mémoire de la
+console Wii empêche l&apos;utilisation
+de WiiConnect24. 
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">No se puede usar WiiConnect24
+debido a un problema de la
+memoria de la consola Wii.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">Wii本体保存メモリに問題があるため
+WiiConnect24を使用できません。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">Wii本体保存メモリに問題があるため
+WiiConnect24を使用できません。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100200_0" number="13" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">WiiConnect24を使用するためには
+本体の更新が必要です。
+詳しくはWii本体の取扱説明書を
+お読みください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">To use WiiConnect24, a
+system update is required.
+Refer to the Wii Operations
+Manual for details.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">To use WiiConnect24, a
+system update is required.
+Refer to the Wii Operations Manual
+for details.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Vous devez mettre à jour
+votre console pour utiliser
+WiiConnect24.
+Veuillez vous référer au mode
+d&apos;emploi Wii pour plus de détails.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Es muss ein Update des
+Wii-Systems durchgeführt
+werden, bevor WiiConnect24
+verwendet werden kann. Bitte
+lies die Wii-Bedienungsanleitung,
+um weitere Informationen zu
+erhalten.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Per poter usare WiiConnect24
+devi aggiornare la console Wii. 
+Per maggiori informazioni,
+consulta il manuale di istruzioni
+della console Wii.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">Es necesario actualizar la
+consola Wii para poder usar
+WiiConnect24. Consulta el manual
+de instrucciones de la consola Wii
+para obtener más información.
+
+Error: </language>
+		<language name="DutchEU" size="80">Je moet de Wii-systeemsoftware
+bijwerken om WiiConnect24 te
+kunnen gebruiken. Lees de Wii-
+handleiding voor meer informatie.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Vous devez mettre à jour
+votre console pour utiliser
+WiiConnect24.
+Veuillez vous référer au mode
+d&apos;emploi de la Wii pour plus de
+détails.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">Es necesario actualizar la
+consola Wii para poder usar
+WiiConnect24. Consulta el manual
+de operaciones de la consola Wii
+para obtener más información.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">WiiConnect24を使用するためには
+本体の更新が必要です。
+詳しくはWii本体の取扱説明書を
+お読みください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">WiiConnect24を使用するためには
+本体の更新が必要です。
+詳しくはWii本体の取扱説明書を
+お読みください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100300_0" number="14" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">エラーが発生したため
+WiiConnect24の機能を
+使用できません。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">WiiConnect24 cannot be used
+because an error has occurred.
+Reset and try again.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">WiiConnect24 cannot be used
+because an error has occurred.
+Reset and try again.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Une erreur est survenue.
+Impossible d&apos;utiliser
+WiiConnect24.
+Veuillez réinitialiser
+la console et réessayer.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Ein Fehler ist aufgetreten.
+WiiConnect24 kann nicht
+verwendet werden. Bitte betätige
+den RESET-Knopf und versuche
+es erneut.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Si è verificato un errore.
+Impossibile usare WiiConnect24.
+Riavvia la console e riprova.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">Se ha producido un error y no
+se puede usar WiiConnect24.
+Reinicia la consola y vuelve
+a intentarlo.
+
+Error: </language>
+		<language name="DutchEU" size="80">Er is een fout opgetreden.
+WiiConnect24 kan niet worden
+gebruikt. Druk op de RESET-
+knop op je Wii-systeem en 
+probeer het nog eens. 
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Une erreur est survenue. Impossible
+d&apos;utiliser WiiConnect24. Veuillez
+réinitialiser la console et réessayer.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">Se ha producido un error 
+y no se puede usar WiiConnect24. 
+Reinicia la consola y vuelve
+a intentarlo.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">エラーが発生したため
+WiiConnect24の機能を
+使用できません。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">エラーが発生したため
+WiiConnect24の機能を
+使用できません。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100400_0" number="15" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">WiiConnect24のサービスが
+一時的にご利用できません。
+しばらくたってから
+もう一度お試しください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">WiiConnect24 is temporarily
+unavailable. 
+Please try again later.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">WiiConnect24 is temporarily
+unavailable.
+Please try again later.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">WiiConnect24 est temporairement
+indisponible.
+Veuillez réessayer ultérieurement.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">WiiConnect24 ist im Moment
+nicht verfügbar. Bitte versuche
+es später erneut.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Al momento WiiConnect24 non
+è disponibile. Riprova più tardi.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">En estos momentos WiiConnect24
+no está disponible.
+Inténtalo más tarde.
+
+Error: </language>
+		<language name="DutchEU" size="80">WiiConnect24 is tijdelijk niet
+beschikbaar. Probeer het later
+nog eens.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">WiiConnect24 est temporairement
+indisponible. Veuillez réessayer
+ultérieurement.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">En estos momentos WiiConnect24
+no está disponible.
+Inténtalo más tarde.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">WiiConnect24のサービスが
+一時的にご利用できません。
+しばらくたってから
+もう一度お試しください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">WiiConnect24のサービスが
+一時的にご利用できません。
+しばらくたってから
+もう一度お試しください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100500_0" number="16" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">WiiConnect24の設定がONに
+なっていません。Wiiオプションで
+設定を確認してください。
+詳しくはWii本体の取扱説明書を
+お読みください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">The WiiConnect24 setting is not
+turned on. Please check the
+settings under Wii Options.
+Refer to the Wii Operations
+Manual for details.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">The WiiConnect24 setting is not
+turned on.
+Please check the settings under
+Wii Options.
+Refer to the Wii Operations Manual
+for details.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">WiiConnect24 n&apos;est pas activé.
+Vérifiez vos paramètres dans
+les options Wii. Veuillez vous
+référer au mode d&apos;emploi Wii
+pour plus de détails.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">WiiConnect24 ist zurzeit
+ausgeschaltet. Überprüfe die
+WiiConnect24-Einstellungen in
+den Wii-Optionen. Bitte lies die
+Wii-Bedienungsanleitung,
+um weitere Informationen
+zu erhalten.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">WiiConnect24 è attualmente 
+disattivato. Controlla le 
+impostazioni dalle Opzioni Wii.
+Per maggiori informazioni, consulta
+il manuale di istruzioni della
+console Wii.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">WiiConnect24 no está activado.
+Comprueba su configuración en las
+opciones de Wii. Consulta el manual
+de instrucciones de la consola Wii
+para obtener más información.
+
+Error: </language>
+		<language name="DutchEU" size="80">WiiConnect24 staat momenteel
+uit. Controleer de instelling voor
+WiiConnect24 in de Wii-
+instellingen. Lees de
+Wii-handleiding voor meer
+informatie.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">WiiConnect24 n&apos;est pas activé.
+Vérifiez vos paramètres dans
+les options Wii. Veuillez vous
+référer au mode d&apos;emploi de
+la Wii pour plus de détails.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">WiiConnect24 no está activado.
+Comprueba su configuración en las
+opciones de Wii. Consulta el manual
+de operaciones de la consola Wii
+para obtener más información.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">WiiConnect24の設定がONに
+なっていません。Wiiオプションで
+設定を確認してください。
+詳しくはWii本体の取扱説明書を
+お読みください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">WiiConnect24の設定がONに
+なっていません。Wiiオプションで
+設定を確認してください。
+詳しくはWii本体の取扱説明書を
+お読みください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100600_0" number="17" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">インターネットに接続できません。
+Wii本体設定のインターネット設定を
+ご確認ください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">An Internet connection cannot
+be established, so WiiConnect24
+cannot be used. Check the
+Internet settings and connection.
+Refer to the Wii Operations
+Manual for details.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">An Internet connection could
+not be established, so
+WiiConnect24 cannot be used.
+Check the Internet settings
+and connection.
+Refer to the Wii Operations Manual
+for details.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Impossible d&apos;utiliser WiiConnect24
+à cause d&apos;un problème de connexion.
+Vérifiez la connexion et les
+paramètres Internet. Veuillez vous
+référer au mode d&apos;emploi Wii
+pour plus de détails.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Keine Verbindung zum Internet
+möglich. WiiConnect24 ist nicht
+verfügbar. Überprüfe die Verbindung
+zum Internet und die Internet-
+Einstellungen der Wii-Konsole. Bitte
+lies die Wii-Bedienungsanleitung, um
+weitere Informationen zu erhalten.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">A causa di un problema di
+connessione a Internet è impossibile
+utilizzare WiiConnect24. Controlla
+la connessione e le impostazioni
+Internet. Per maggiori informazioni,
+consulta il manuale di istruzioni
+della console Wii.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">WiiConnect24 no está disponible
+porque no se puede establecer
+una conexión con internet.
+Comprueba las opciones de internet
+en la configuración de Wii.
+Consulta el manual de instrucciones
+de la consola Wii para
+obtener más información.
+Error: </language>
+		<language name="DutchEU" size="80">Er kan geen verbinding worden
+gemaakt met het internet.
+WiiConnect24 kan niet worden
+gebruikt. Controleer de
+internetinstellingen en de verbinding.
+Lees de Wii-handleiding voor
+meer informatie.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Impossible d&apos;utiliser WiiConnect24 à
+cause d&apos;un problème de connexion.
+Vérifiez la connexion et les
+paramètres Internet. Veuillez vous
+référer au mode d&apos;emploi de la Wii
+pour plus de détails.
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="76">WiiConnect24 no está disponible
+porque no se puede establecer una
+conexión a Internet. Comprueba la
+conexión y la configuración de Internet.
+Consulta el manual de operaciones
+de la consola Wii para obtener más
+información.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">インターネットに接続できません。
+Wii本体設定のインターネット設定を
+ご確認ください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">インターネットに接続できません。
+Wii本体設定のインターネット設定を
+ご確認ください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100700_0" number="18" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">インターネットへの接続が必要です。
+
+インターネットの設定を
+おこないますか？</language>
+		<language name="EnglishUS" size="80">You must be connected
+to the Internet.
+
+Set up Internet connection?</language>
+		<language name="EnglishEU" size="80">You must be connected to the
+internet.
+
+Set up internet connection?</language>
+		<language name="FrenchEU" size="80">Vous devez être
+connecté à Internet.
+
+Voulez-vous paramétrer
+la connexion?</language>
+		<language name="GermanEU" size="80">Es muss eine Verbindung
+mit dem Internet bestehen.
+
+Internetverbindung einrichten?</language>
+		<language name="ItalianEU" size="80">È necessario essere connessi a
+Internet.
+
+Vuoi impostare il collegamento
+a Internet?</language>
+		<language name="SpanishEU" size="80">Debes tener conexión
+a internet.
+
+¿Quieres configurar
+la conexión?</language>
+		<language name="DutchEU" size="80">Je moet verbinding maken
+met het internet.
+
+Wil je een internetverbinding
+instellen?</language>
+		<language name="FrenchUS" size="80">Vous devez être
+connecté(e) à Internet.
+
+Voulez-vous configurer
+la connexion?</language>
+		<language name="SpanishUS" size="80">Debes tener conexión 
+a internet.
+
+¿Quieres configurar
+la conexión?</language>
+		<language name="ChineseCN" size="80">インターネットへの接続が必要です。
+
+インターネットの設定を
+おこないますか？</language>
+		<language name="KoreanKR" size="80">インターネットへの接続が必要です。
+
+インターネットの設定を
+おこないますか？</language>
+	</row>
+
+	<row id="0100800_0" number="19" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">受信に失敗しました。
+「最初にもどる」を押すと
+通信が回復する場合があります。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">An error has occurred. Select
+Main Menu and try again.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">An error has occurred. Select
+Main Menu and try again.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Une erreur est survenue.
+Revenez au menu principal
+et réessayez.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Ein Fehler ist aufgetreten.
+Bitte kehre zum Hauptmenü
+zurück und versuche es erneut.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Si è verificato un errore.
+Seleziona Menu principale
+e riprova.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">Se ha producido un error.
+Selecciona &quot;Menú principal&quot;
+y vuelve a intentarlo.
+
+Error: </language>
+		<language name="DutchEU" size="80">Er is een fout opgetreden. Ga
+naar het hoofdmenu en probeer
+het nog eens.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Une erreur est survenue. 
+Sélectionnez Menu principal 
+et réessayez.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">Ocurrió un error.
+Selecciona &quot;Menú principal&quot;
+e inténtalo de nuevo.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">受信に失敗しました。
+「最初にもどる」を押すと
+通信が回復する場合があります。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">受信に失敗しました。
+「最初にもどる」を押すと
+通信が回復する場合があります。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100900_0" number="20" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">受信に失敗しました。
+インターネットの設定を確認するか
+しばらく待ってからもう一度
+お試しください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">An error has occurred.
+Check your Internet connection
+settings, or wait a while and
+try again.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">An error has occurred.
+Check your Internet connection
+settings, or wait a while and
+try again.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Une erreur est survenue.
+Vérifiez vos paramètres de
+connexion Internet ou
+réessayez ultérieurement.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Ein Fehler ist aufgetreten.
+Überprüfe die Verbindung zum
+Internet und die Internet-
+Einstellungen der Wii-Konsole
+oder warte einen Moment und
+versuche es später erneut.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Si è verificato un errore.
+Controlla le impostazioni di
+collegamento a Internet o
+attendi e riprova più tardi.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">Se ha producido un error.
+Comprueba los ajustes de
+internet o vuelve a
+intentarlo más tarde.
+
+Error: </language>
+		<language name="DutchEU" size="80">Er is een fout opgetreden.
+Controleer de instellingen onder
+Internet in de Wii-instellingen of
+probeer het later nog eens.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Une erreur est survenue.
+Vérifiez vos paramètres Internet, 
+ou patientez quelques instants
+avant de réessayer.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">Ocurrió un error.
+Comprueba los ajustes de
+Internet o vuelve a intentarlo
+más tarde.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">受信に失敗しました。
+インターネットの設定を確認するか
+しばらく待ってからもう一度
+お試しください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">受信に失敗しました。
+インターネットの設定を確認するか
+しばらく待ってからもう一度
+お試しください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100901_0" number="21" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">送信に失敗しました。
+インターネットの設定を確認するか
+しばらく待ってからもう一度
+お試しください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">An error has occurred.
+Check your Internet connection
+settings, or wait a while and
+try again.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">An error has occurred.
+Check your Internet connection
+settings, or wait a while and
+try again.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Une erreur est survenue.
+Vérifiez vos paramètres de
+connexion Internet ou
+réessayez ultérieurement.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Ein Fehler ist aufgetreten.
+Überprüfe die Verbindung zum
+Internet und die Internet-
+Einstellungen der Wii-Konsole
+oder warte einen Moment und
+versuche es später erneut.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Si è verificato un errore.
+Controlla le impostazioni di
+collegamento a Internet o
+attendi e riprova più tardi.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">Se ha producido un error.
+Comprueba los ajustes de
+internet o vuelve a
+intentarlo más tarde.
+
+Error: </language>
+		<language name="DutchEU" size="80">Er is een fout opgetreden.
+Controleer de instellingen onder
+Internet in de Wii-instellingen of
+probeer het later nog eens.
+
+Fout:</language>
+		<language name="FrenchUS" size="80">Une erreur est survenue.
+Vérifiez vos paramètres Internet, 
+ou patientez quelques instants
+avant de réessayer.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">Ocurrió un error.
+Comprueba los ajustes de
+Internet o vuelve a intentarlo
+más tarde.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">送信に失敗しました。
+インターネットの設定を確認するか
+しばらく待ってからもう一度
+お試しください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">送信に失敗しました。
+インターネットの設定を確認するか
+しばらく待ってからもう一度
+お試しください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0100902_0" number="22" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">送信に失敗しました。
+次回起動時に再送信を行います。
+
+このまま、みんなのニンテンドー
+チャンネルを起動します。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">A transmission error has occurred.
+Transmission will resume the 
+next time you connect to the
+Nintendo Channel.
+
+Starting the Nintendo Channel.
+
+Error Code: </language>
+		<language name="EnglishEU" size="80">A transmission error has occurred.
+Transmission will resume the 
+next time you connect to the
+Nintendo Channel.
+
+Starting Nintendo Channel.
+
+Error Code: </language>
+		<language name="FrenchEU" size="80">Une erreur de transmission est 
+survenue. La transmission reprendra 
+la prochaine fois que tu te 
+connecteras à la chaîne Nintendo.
+
+Démarrage de la chaîne Nintendo.
+Code d&apos;erreur : </language>
+		<language name="GermanEU" size="80">Übertragungsfehler ist aufgetreten.
+Die Übertragung wird fortgesetzt, 
+wenn du das nächste Mal eine 
+Verbindung mit dem Nintendo-
+Channel herstellst.
+Nintendo-Channel starten.
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Si è verificato un errore di 
+trasmissione.
+La trasmissione riprenderà
+quando ti collegherai nuovamente
+a Nintendo Channel.
+Avvio di Nintendo Channel in corso.
+Codice errore:</language>
+		<language name="SpanishEU" size="80">Se ha producido un error de 
+transmisión.
+La transmisión se reiniciará la
+próxima vez que te conectes a
+Nintendo Channel.
+Iniciando Nintendo Channel.
+Código de error: </language>
+		<language name="DutchEU" size="80">Bij het verzenden is een fout
+opgetreden. De eerstvolgende
+keer dat je verbinding maakt
+met het Nintendo-kanaal wordt
+het verzenden hervat.
+Het Nintendo-kanaal wordt gestart.
+Fout: </language>
+		<language name="FrenchUS" size="80">Une erreur de transmission est
+survenue. La transmission con-
+tinuera la prochaine fois que vous
+accéderez à la Chaîne Nintendo.
+
+Démarrage de la Chaîne Nintendo.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">Ha ocurrido un error durante
+la transmisión de datos.
+La transmisión continuará
+la próxima vez que te conectes
+al Canal Nintendo.
+
+Abriendo el Canal Nintendo.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">送信に失敗しました。
+次回起動時に再送信を行います。
+
+このまま、みんなのニンテンドー
+チャンネルを起動します。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">送信に失敗しました。
+次回起動時に再送信を行います。
+
+このまま、みんなのニンテンドー
+チャンネルを起動します。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0101000_0" number="23" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">みんなのニンテンドーチャンネルに
+更新があります。
+Wiiショッピングチャンネルで
+受信をやりなおしてください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">The Nintendo Channel has been
+updated. Please download the
+newest version of this software
+from the Wii Shop Channel.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">The Nintendo Channel has been
+updated. Please download the
+newest version of this software
+from the Wii Shop Channel.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">La chaîne Nintendo a été mise
+à jour. Veuillez télécharger la
+toute dernière version de ce
+logiciel depuis la chaîne
+boutique Wii.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Für den Nintendo-Kanal steht ein
+Update zur Verfügung. Bitte lade
+die neueste Version dieser
+Software im Wii-Shop-Kanal
+herunter.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Il Canale Nintendo è stato
+aggiornato. Scarica la versione
+più recente dal Canale Wii Shop.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">Hay una nueva actualización
+del Canal Nintendo. Por favor,
+descarga la nueva versión desde
+el Canal Tienda Wii.
+
+Error: </language>
+		<language name="DutchEU" size="80">Het Nintendo-kanaal is bijgewerkt.
+Download de nieuwste versie
+in het Wii-winkelkanaal.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">La Chaîne Nintendo a été mise
+à jour. Veuillez télécharger la
+toute dernière version de ce
+logiciel depuis la Chaîne
+boutique Wii.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">El Canal Nintendo ha sido
+actualizado. Descarga la
+nueva versión desde el
+Canal Tienda Wii.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">みんなのニンテンドーチャンネルに
+更新があります。
+Wiiショッピングチャンネルで
+受信をやりなおしてください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">みんなのニンテンドーチャンネルに
+更新があります。
+Wiiショッピングチャンネルで
+受信をやりなおしてください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0101001_0" number="24" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">受信する</language>
+		<language name="EnglishUS" size="90">Receive</language>
+		<language name="EnglishEU" size="90">Receive</language>
+		<language name="FrenchEU" size="90">Recevoir</language>
+		<language name="GermanEU" size="90">Update</language>
+		<language name="ItalianEU" size="90">Ricevi</language>
+		<language name="SpanishEU" size="90">Recibir</language>
+		<language name="DutchEU" size="90">Ontvangen</language>
+		<language name="FrenchUS" size="90">Recevoir</language>
+		<language name="SpanishUS" size="90">Recibir</language>
+		<language name="ChineseCN" size="90">受信する</language>
+		<language name="KoreanKR" size="90">受信する</language>
+	</row>
+
+	<row id="0101100_0" number="25" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">みんなのニンテンドーチャンネルの
+サービスは終了いたしました。
+今までご利用いただき
+大変ありがとうございました。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">Nintendo Channel services have
+been discontinued. Thank you for
+your participation.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">The Nintendo Channel services
+have been discontinued.
+Thank you for your participation.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Le service de la chaîne
+Nintendo a été interrompu. 
+Merci de l&apos;avoir utilisée.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Der Nintendo-Kanal steht nicht
+mehr zur Verfügung. Vielen
+Dank für deine Teilnahme.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Il Canale Nintendo non è
+più disponibile. Grazie
+per l&apos;interesse mostrato.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">El Canal Nintendo ya no está
+disponible. Gracias por participar.
+
+Error: </language>
+		<language name="DutchEU" size="80">De service van het Nintendo-
+kanaal is gestopt.
+Bedankt voor je deelname.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Les services de la Chaîne 
+Nintendo ont été définitivement
+interrompus. Merci de votre
+participation.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">El Canal Nintendo ya no está
+disponible. Gracias por participar.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">みんなのニンテンドーチャンネルの
+サービスは終了いたしました。
+今までご利用いただき
+大変ありがとうございました。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">みんなのニンテンドーチャンネルの
+サービスは終了いたしました。
+今までご利用いただき
+大変ありがとうございました。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0101200_0" number="26" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">サーバでエラーが発生しました。
+しばらく待ってから
+もう一度お試しください。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">A server error has occurred.
+Wait a while and try again
+later.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">A server error has occurred.
+Please try again later.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">Une erreur est survenue au
+niveau du serveur. Veuillez
+réessayer ultérieurement.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Eine Störung ist aufgetreten.
+Bitte versuche es später erneut.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Si è verificato un errore nel
+server. Attendi e riprova più
+tardi.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">Se ha producido un
+error en el servidor.
+Vuelve a intentarlo más tarde.
+
+Error: </language>
+		<language name="DutchEU" size="80">Er is een serverfout opgetreden.
+Probeer het later nog eens.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">Une erreur est survenue au 
+niveau du serveur. Veuillez 
+patienter quelques instants 
+avant de réessayer.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">Ocurrió un error en el servidor.
+Inténtalo más tarde.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">サーバでエラーが発生しました。
+しばらく待ってから
+もう一度お試しください。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">サーバでエラーが発生しました。
+しばらく待ってから
+もう一度お試しください。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0101300_0" number="27" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">このWiiで設定されている国は
+みんなのニンテンドーチャンネルの
+サービス対象外です。
+
+エラーコード：</language>
+		<language name="EnglishUS" size="80">The Nintendo Channel is not
+available in the country
+currently selected in the
+Wii System Settings.
+
+Error code: </language>
+		<language name="EnglishEU" size="80">The Nintendo Channel
+is not available in the
+country currently selected
+in your Wii System Settings.
+
+Error code: </language>
+		<language name="FrenchEU" size="80">La chaîne Nintendo n&apos;est
+pas disponible dans le pays
+actuellement sélectionné
+dans les paramètres Wii.
+
+Code d&apos;erreur: </language>
+		<language name="GermanEU" size="80">Der Nintendo-Kanal ist in dem
+Land, das in deinen
+Wii-Systemeinstellungen gewählt
+wurde, nicht verfügbar.
+
+Fehlercode: </language>
+		<language name="ItalianEU" size="80">Al momento il Canale Nintendo
+non è disponibile nel paese
+selezionato nelle impostazioni
+della console Wii.
+
+Codice errore: </language>
+		<language name="SpanishEU" size="80">El Canal Nintendo no está
+actualmente disponible en
+el país seleccionado en
+la configuración de Wii.
+
+Error: </language>
+		<language name="DutchEU" size="80">Het Nintendo-kanaal is niet
+beschikbaar in het land dat
+momenteel is ingesteld in de
+Wii-systeeminstellingen.
+
+Fout: </language>
+		<language name="FrenchUS" size="80">La Chaîne Nintendo n&apos;est 
+pas disponible pour le 
+pays actuellement 
+sélectionné dans les
+paramètres Wii.
+
+Code d&apos;erreur : </language>
+		<language name="SpanishUS" size="80">El Canal Nintendo no está
+disponible en el país elegido
+en la configuración de Wii.
+
+Código de error: </language>
+		<language name="ChineseCN" size="80">このWiiで設定されている国は
+みんなのニンテンドーチャンネルの
+サービス対象外です。
+
+エラーコード：</language>
+		<language name="KoreanKR" size="80">このWiiで設定されている国は
+みんなのニンテンドーチャンネルの
+サービス対象外です。
+
+エラーコード：</language>
+	</row>
+
+	<row id="0101400_0" number="28" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">このWiiで設定されている言語は
+この国設定では表示できません。
+この国では以下の言語で表示します。
+
+言語：</language>
+		<language name="EnglishUS" size="80">The language selected in the Wii
+System Settings cannot be
+displayed in the currently
+selected country. Available
+languages are listed below.
+
+Language: </language>
+		<language name="EnglishEU" size="80">The language selected in your
+Wii System Settings cannot be
+displayed in the currently
+selected country. Only one
+language is available.
+
+Language: </language>
+		<language name="FrenchEU" size="80">La langue sélectionnée dans
+les paramètres Wii ne peut pas
+être affichée dans le pays
+actuellement sélectionné. Une
+seule langue y est disponible.
+
+Langue: </language>
+		<language name="GermanEU" size="80">Die Sprache, die in den
+Wii-Systemeinstellungen gewählt
+wurde, kann für das derzeit
+gewählte Land nicht verwendet
+werden. Lediglich eine Sprache
+steht zur Verfügung.
+Sprache: </language>
+		<language name="ItalianEU" size="80">La lingua selezionata nelle
+impostazioni della console Wii
+non può essere visualizzata nel
+paese selezionato.
+
+La lingua disponibile è
+la seguente: </language>
+		<language name="SpanishEU" size="80">El idioma seleccionado en la
+configuración de Wii no está
+disponible en el país que has
+elegido. Solo está disponible el
+idioma indicado a continuación:
+</language>
+		<language name="DutchEU" size="80">De geselecteerde taal in de
+Wii-systeeminstellingen kan niet
+worden weergegeven in het
+geselecteerde land.
+Er is slechts één taal
+beschikbaar: </language>
+		<language name="FrenchUS" size="80">La langue sélectionnée dans les
+paramètres Wii ne peut pas être 
+affichée pour le pays 
+actuellement sélectionné.
+Consultez la liste des langues
+disponibles ci-dessous.
+
+Langue : </language>
+		<language name="SpanishUS" size="80">El idioma seleccionado en la
+configuración de Wii no está
+disponible en el país que has
+elegido. Los idiomas disponibles
+se muestran a continuación.
+
+Idioma: </language>
+		<language name="ChineseCN" size="80">このWiiで設定されている言語は
+この国設定では表示できません。
+この国では以下の言語で表示します。
+
+言語：</language>
+		<language name="KoreanKR" size="80">このWiiで設定されている言語は
+この国設定では表示できません。
+この国では以下の言語で表示します。
+
+言語：</language>
+	</row>
+
+	<row id="0101500_0" number="29" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">このWiiで設定されている言語は
+この国では表示できません。
+次の中から表示する言語を
+選択してください。</language>
+		<language name="EnglishUS" size="80">The language selected in the Wii
+System Settings cannot be
+displayed in the currently
+selected country. Please choose
+a language from the list.</language>
+		<language name="EnglishEU" size="80">The language selected in your
+Wii System Settings cannot
+be displayed in the currently
+selected country. Please choose
+a language from the list.</language>
+		<language name="FrenchEU" size="80">La langue sélectionnée dans
+les paramètres Wii ne peut pas
+être affichée dans le pays
+actuellement sélectionné. Veuillez
+choisir une langue dans la liste.</language>
+		<language name="GermanEU" size="80">Die Sprache, die in den
+Wii-Systemeinstellungen gewählt
+wurde, kann für das derzeit
+gewählte Land nicht verwendet
+werden. Bitte wähle eine
+Sprache aus der Liste.</language>
+		<language name="ItalianEU" size="80">La lingua selezionata
+nelle impostazioni della
+console Wii non può essere
+visualizzata nel paese
+selezionato. Scegli una
+lingua dalla lista.</language>
+		<language name="SpanishEU" size="80">El idioma seleccionado en la
+configuración de Wii no está
+disponible en el país que has
+elegido. Por favor, selecciona
+un idioma de la lista.</language>
+		<language name="DutchEU" size="80">De ingestelde taal in de
+Wii-systeeminstellingen kan niet
+worden weergegeven in het
+geselecteerde land. Kies een taal
+uit de lijst.</language>
+		<language name="FrenchUS" size="80">La langue sélectionnée dans les
+paramètres Wii ne peut pas être
+affichée pour le pays 
+actuellement sélectionné. Veuillez
+choisir une langue dans la liste.</language>
+		<language name="SpanishUS" size="80">El idioma seleccionado en la
+configuración de Wii no está
+disponible en el país que has
+elegido. Selecciona un idioma
+de la lista.</language>
+		<language name="ChineseCN" size="80">このWiiで設定されている言語は
+この国では表示できません。
+次の中から表示する言語を
+選択してください。</language>
+		<language name="KoreanKR" size="80">このWiiで設定されている言語は
+この国では表示できません。
+次の中から表示する言語を
+選択してください。</language>
+	</row>
+
+	<row id="0101900_0" number="30" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">前回とは言語が変更されましたので、
+データを読み込み直します。
+
+言語： </language>
+		<language name="EnglishUS" size="80">Language settings have changed.
+To load new language data, accept
+the selection below.
+
+Language: </language>
+		<language name="EnglishEU" size="80">Language settings have been
+changed since last time.
+Re-accessing save data.
+
+Language: </language>
+		<language name="FrenchEU" size="80">Vos paramètres de langue
+ont été modifiés depuis
+la dernière fois.
+Réactualisation des données
+de sauvegarde en cours...
+
+Langue: </language>
+		<language name="GermanEU" size="80">Deine Spracheinstellungen
+wurden geändert.
+Daten werden erneut geladen.
+
+Sprache: </language>
+		<language name="ItalianEU" size="80">Le impostazioni della lingua
+sono state modificate dall&apos;ultima
+volta. È necessario accedere
+nuovamente ai dati.
+
+Lingua: </language>
+		<language name="SpanishEU" size="80">El idioma seleccionado ha
+cambiado. Se va a acceder de
+nuevo a los datos guardados.
+
+Idioma: </language>
+		<language name="DutchEU" size="80">De taal is anders ingesteld dan
+de vorige keer. De gegevens
+worden opnieuw geladen.
+
+Taal: </language>
+		<language name="FrenchUS" size="80">Les paramètres de la langue ont été 
+modifiés. Pour actualiser les données,
+veuillez accepter le choix ci-dessous.
+
+Langue : </language>
+		<language name="SpanishUS" size="80">Los ajustes de idiomas han
+cambiado. Para cambiar los
+nuevos datos, acepta la
+selección que aparece abajo.
+
+Idioma: </language>
+		<language name="ChineseCN" size="80">前回とは言語が変更されましたので、
+データを読み込み直します。
+
+言語： </language>
+		<language name="KoreanKR" size="80">前回とは言語が変更されましたので、
+データを読み込み直します。
+
+言語： </language>
+	</row>
+
+	<row id="0110000_0" number="31" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">セーブしています…
+
+電源ボタンを押さないでください。</language>
+		<language name="EnglishUS" size="80">Saving...
+
+Do not touch the Power Button
+or RESET.</language>
+		<language name="EnglishEU" size="80">Saving in progress...
+
+Please do not touch the
+POWER Button or RESET.</language>
+		<language name="FrenchEU" size="80">Sauvegarde en cours...
+
+Ne touchez pas au bouton
+POWER ni au bouton RESET.</language>
+		<language name="GermanEU" size="80">Speichervorgang...
+
+Bitte betätige weder den
+POWER-Schalter noch
+den RESET-Knopf.</language>
+		<language name="ItalianEU" size="80">Salvataggio in corso...
+
+Non toccare il pulsante
+POWER o il pulsante RESET.</language>
+		<language name="SpanishEU" size="80">Guardando...
+
+No toques el Botón POWER ni
+el Botón RESET.</language>
+		<language name="DutchEU" size="80">Bezig met opslaan...
+
+Druk de POWER- of RESET-knop
+niet in.</language>
+		<language name="FrenchUS" size="80">Sauvegarde en cours...
+
+Ne touchez pas au bouton 
+POWER ni au bouton RESET.</language>
+		<language name="SpanishUS" size="80">Guardando...
+No toques el botón POWER ni
+el botón RESET.</language>
+		<language name="ChineseCN" size="80">セーブしています…
+
+電源ボタンを押さないでください。</language>
+		<language name="KoreanKR" size="80">セーブしています…
+
+電源ボタンを押さないでください。</language>
+	</row>
+
+	<row id="0110100_0" number="32" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">Wii本体保存メモリが壊れました。
+詳しくはWii本体の取扱説明書を
+お読みください。</language>
+		<language name="EnglishUS" size="80">The Wii system memory has been
+damaged. Refer to the Wii
+Operations Manual for details.</language>
+		<language name="EnglishEU" size="80">The Wii System Memory has
+been damaged. Please refer
+to the Wii Operations Manual
+for details.</language>
+		<language name="FrenchEU" size="80">La mémoire de la console Wii
+est endommagée. Veuillez
+vous référer au mode
+d&apos;emploi Wii pour plus de
+détails.</language>
+		<language name="GermanEU" size="80">Der Speicher der Wii-Konsole
+ist beschädigt. Bitte lies die
+Wii-Bedienungsanleitung,
+um weitere Informationen
+zu erhalten.</language>
+		<language name="ItalianEU" size="80">La memoria della console Wii
+è danneggiata. Per maggiori
+informazioni, consulta il
+manuale di istruzioni
+della console Wii.</language>
+		<language name="SpanishEU" size="80">La memoria de la consola Wii
+está dañada. Consulta el manual
+de instrucciones de la consola Wii
+para obtener más información.</language>
+		<language name="DutchEU" size="80">Het interne geheugen van het
+Wii-systeem is beschadigd. Lees
+de Wii-handleiding voor meer
+informatie.</language>
+		<language name="FrenchUS" size="80">La mémoire de la console Wii
+a été endommagée. Veuillez
+vous référer au mode d&apos;emploi
+de la Wii pour plus de détails.</language>
+		<language name="SpanishUS" size="80">La memoria de la consola Wii
+está dañada. Consulta el manual
+de operaciones de la consola Wii
+para obtener más información.</language>
+		<language name="ChineseCN" size="80">Wii本体保存メモリが壊れました。
+詳しくはWii本体の取扱説明書を
+お読みください。</language>
+		<language name="KoreanKR" size="80">Wii本体保存メモリが壊れました。
+詳しくはWii本体の取扱説明書を
+お読みください。</language>
+	</row>
+
+	<row id="0110200_0" number="33" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">Wii本体保存メモリの書き込みが
+できませんでした。
+詳しくはWii本体の取扱説明書を
+お読みください。</language>
+		<language name="EnglishUS" size="80">Could not access Wii
+system memory. Refer
+to the Wii Operations
+Manual for details.</language>
+		<language name="EnglishEU" size="80">Could not access the Wii
+System Memory. Please
+refer to the Wii Operations
+Manual for details.</language>
+		<language name="FrenchEU" size="80">Impossible d&apos;accéder à la
+mémoire de la console Wii.
+Veuillez vous référer au
+mode d&apos;emploi Wii pour plus
+de détails.</language>
+		<language name="GermanEU" size="80">Auf den Speicher der Wii-Konsole
+konnte nicht zugegriffen werden.
+Bitte lies die
+Wii-Bedienungsanleitung,
+um weitere Informationen
+zu erhalten.</language>
+		<language name="ItalianEU" size="80">Impossibile accedere alla memoria
+della console Wii. Per maggiori
+informazioni, consulta il manuale
+di istruzioni della console Wii.</language>
+		<language name="SpanishEU" size="80">No se ha podido acceder a la
+memoria de la consola Wii.
+Consulta el manual de
+instrucciones de la consola Wii
+para obtener más información.</language>
+		<language name="DutchEU" size="80">Het interne geheugen van het
+Wii-systeem kan niet worden
+gelezen of beschreven. Lees
+de Wii-handleiding voor meer
+informatie.</language>
+		<language name="FrenchUS" size="80">Impossible d&apos;accéder à la
+mémoire de la console Wii.
+Veuillez vous référer au mode
+d&apos;emploi de la Wii pour plus
+de détails.</language>
+		<language name="SpanishUS" size="80">No se ha podido acceder a la
+memoria de la consola Wii.
+Consulta el manual de
+operaciones de la consola Wii
+para obtener más información.</language>
+		<language name="ChineseCN" size="80">Wii本体保存メモリの書き込みが
+できませんでした。
+詳しくはWii本体の取扱説明書を
+お読みください。</language>
+		<language name="KoreanKR" size="80">Wii本体保存メモリの書き込みが
+できませんでした。
+詳しくはWii本体の取扱説明書を
+お読みください。</language>
+	</row>
+
+	<row id="0110300_0" number="34" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">チャンネルのセーブデータが壊れています。
+セーブデータを作り直します。</language>
+		<language name="EnglishUS" size="80">Nintendo Channel save data
+is corrupted. Creating new
+save data.</language>
+		<language name="EnglishEU" size="80">The Nintendo Channel
+save data is corrupted.
+Creating new save data.</language>
+		<language name="FrenchEU" size="80">Les données de la chaîne
+Nintendo sont corrompues.
+
+Création de nouvelles
+données de sauvegarde...</language>
+		<language name="GermanEU" size="80">Die Speicherdaten des
+Nintendo-Kanals sind fehlerhaft.
+Neue Speicherdaten werden
+erstellt.</language>
+		<language name="ItalianEU" size="80">I dati di salvataggio del Canale
+Nintendo sono danneggiati.
+Creazione di nuovi dati di
+salvataggio in corso.</language>
+		<language name="SpanishEU" size="80">El Canal Nintendo contiene
+datos dañados.
+Se crearán datos nuevos.</language>
+		<language name="DutchEU" size="80">De opgeslagen gegevens van
+het Nintendo-kanaal zijn
+beschadigd. Bezig met nieuwe
+gegevens aan te maken...</language>
+		<language name="FrenchUS" size="80">Les données de sauvegarde de
+la Chaîne Nintendo sont 
+corrompues. Création de
+nouvelles données de
+sauvegarde...</language>
+		<language name="SpanishUS" size="80">El Canal Nintendo contiene datos
+dañados. Se crearán unos
+nuevos.</language>
+		<language name="ChineseCN" size="80">チャンネルのセーブデータが壊れています。
+セーブデータを作り直します。</language>
+		<language name="KoreanKR" size="80">チャンネルのセーブデータが壊れています。
+セーブデータを作り直します。</language>
+	</row>
+
+	<row id="0110400_0" number="35" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">Wii本体保存メモリの空き容量が
+不足しています。
+Wiiメニューのデータ管理画面で
+データをSDカードに移動するか、
+データを消去して9ブロックの
+空きブロックを用意してください。</language>
+		<language name="EnglishUS" size="80">There is not enough available
+space in Wii system memory.
+Create 1 blocks of free space
+either by moving data to an SD
+Card or deleting data in the Wii
+console&apos;s Data Management
+screen.</language>
+		<language name="EnglishEU" size="80">There is not enough available
+space in the Wii System Memory.
+Create 1 block of free space
+by either moving data to an
+SD Card or deleting data on
+the Data Management Screen.</language>
+		<language name="FrenchEU" size="80">Il n&apos;y a pas assez d&apos;espace 
+libre dans la mémoire de la 
+console Wii. Libérez 1 bloc
+en transférant des données
+vers une carte SD ou en les
+effaçant depuis l&apos;écran de
+gestion des données.</language>
+		<language name="GermanEU" size="80">Nicht genügend freier Platz
+im Speicher der Wii-Konsole
+vorhanden. Bitte rufe den
+Datenverwaltungsbildschirm auf,
+um Daten auf eine SD Card zu
+verschieben oder zu löschen
+(erforderliche Blöcke: 1).</language>
+		<language name="ItalianEU" size="80">Non c&apos;è abbastanza spazio libero
+nella memoria della console Wii.
+Blocchi liberi necessari: 1. Per
+creare spazio, vai allo schermo
+Gestione dati e cancella alcuni
+dati o trasferiscili in una
+scheda SD.</language>
+		<language name="SpanishEU" size="80">No hay suficiente espacio libre
+en la memoria de la consola Wii.
+Bloques libres necesarios: 1.
+Transfiere datos a una tarjeta SD
+o borra los que no necesites en
+la pantalla de gestión de datos.</language>
+		<language name="DutchEU" size="80">Er is te weinig vrije ruimte in het
+interne geheugen van het
+Wii-systeem. Maak 1 blok
+vrij door gegevens te wissen of
+te verplaatsen naar een SD-kaart
+via het geheugenbeheer.</language>
+		<language name="FrenchUS" size="80">Il n&apos;y a pas assez d&apos;espace libre
+dans la mémoire de la console
+Wii. Libérez 1 blocs en trans-
+férant des données sur une carte
+SD ou en effaçant des données
+à partir de l&apos;écran de gestion des
+données de la console Wii.</language>
+		<language name="SpanishUS" size="80">No hay suficiente espacio libre
+en la memoria de la consola Wii.
+Bloques libres necesarios: 1.
+Transfiere datos a una tarjeta SD
+o borra los que no necesites en
+la pantalla de gestión de datos
+de la consola Wii.</language>
+		<language name="ChineseCN" size="80">Wii本体保存メモリの空き容量が
+不足しています。
+Wiiメニューのデータ管理画面で
+データをSDカードに移動するか、
+データを消去して9ブロックの
+空きブロックを用意してください。</language>
+		<language name="KoreanKR" size="80">Wii本体保存メモリの空き容量が
+不足しています。
+Wiiメニューのデータ管理画面で
+データをSDカードに移動するか、
+データを消去して9ブロックの
+空きブロックを用意してください。</language>
+	</row>
+
+	<row id="0110500_0" number="36" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">Wii本体保存メモリの空きファイル数が
+不足しています。
+Wiiメニューのデータ管理画面で
+データをSDカードに移動するか、
+データを消去してください。</language>
+		<language name="EnglishUS" size="80">There is not enough available
+space in Wii system memory.
+Either move data to an SD Card
+or delete data in the Wii
+console&apos;s Data Management
+screen.</language>
+		<language name="EnglishEU" size="80">There is not enough available
+space in the Wii System Memory.
+Either move data to an SD Card
+or delete data on the
+Data Management Screen.
+</language>
+		<language name="FrenchEU" size="80">Il n&apos;y a pas assez d&apos;espace libre
+dans la mémoire de la console 
+Wii. Transférez des données sur
+une carte SD ou effacez des
+données inutiles depuis l&apos;écran 
+de gestion des données.</language>
+		<language name="GermanEU" size="80">Nicht genügend freier Platz
+im Speicher der Wii-Konsole
+vorhanden. Bitte rufe den
+Datenverwaltungsbildschirm auf,
+um Daten auf eine SD Card zu
+verschieben oder zu löschen.</language>
+		<language name="ItalianEU" size="80">Non c&apos;è abbastanza spazio libero
+nella memoria della console Wii.
+Per creare spazio, vai allo
+schermo Gestione dati e cancella
+alcuni dati o trasferiscili in una
+scheda SD.</language>
+		<language name="SpanishEU" size="80">No hay suficiente espacio libre
+en la memoria de la consola Wii.
+Transfiere datos a una tarjeta SD
+o borra los que no necesites en
+la pantalla de gestión de datos.</language>
+		<language name="DutchEU" size="80">Er is te weinig vrije ruimte in het
+interne geheugen van het
+Wii-systeem. Wis gegevens of
+verplaats ze naar een SD-kaart
+via het geheugenbeheer.</language>
+		<language name="FrenchUS" size="80">Il n&apos;y a pas assez d&apos;espace libre
+dans la mémoire de la console
+Wii. Transférez des données sur
+une carte SD ou effacez des
+données inutiles à partir de
+l&apos;écran de gestion des données
+de la console Wii.</language>
+		<language name="SpanishUS" size="80">No hay suficiente espacio libre
+en la memoria de la consola Wii.
+Transfiere datos a una tarjeta SD
+o borra los que no necesites en
+la pantalla de gestión de datos
+de la consola Wii.</language>
+		<language name="ChineseCN" size="80">Wii本体保存メモリの空きファイル数が
+不足しています。
+Wiiメニューのデータ管理画面で
+データをSDカードに移動するか、
+データを消去してください。</language>
+		<language name="KoreanKR" size="80">Wii本体保存メモリの空きファイル数が
+不足しています。
+Wiiメニューのデータ管理画面で
+データをSDカードに移動するか、
+データを消去してください。</language>
+	</row>
+
+	<row id="0110600_0" number="37" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">準備をしています…
+
+電源ボタンを押さずに、
+しばらくお待ちください。</language>
+		<language name="EnglishUS" size="80">Saving in progress. Please do not
+touch the Power Button or RESET.</language>
+		<language name="EnglishEU" size="80">Formatting save data...
+Please do not press the
+Power/Reset Button.</language>
+		<language name="FrenchEU" size="80">Formatage des données sauvegardées
+en cours...
+Ne pas appuyer sur le bouton 
+POWER/RESET.</language>
+		<language name="GermanEU" size="80">Speicherdaten werden formatiert...
+Den POWER-Schalter sowie den
+RESET-Knopf nicht drücken.</language>
+		<language name="ItalianEU" size="80">Formattazione dei dati di salvataggio 
+in corso. Non toccare il pulsante 
+POWER o il pulsante RESET.</language>
+		<language name="SpanishEU" size="80">Formateando los datos guardados...
+No pulses el botón POWER/RESET.</language>
+		<language name="DutchEU" size="80">Bezig met het formatteren van 
+opgeslagen gegevens...
+Druk de POWER-knop of de 
+RESET-knop niet in.
+</language>
+		<language name="FrenchUS" size="80">Sauvegarde en cours...
+Ne touchez pas au bouton POWER
+ni au bouton RESET.</language>
+		<language name="SpanishUS" size="80">Guardando los datos...
+No toques el botón POWER
+ni el botón RESET.</language>
+		<language name="ChineseCN" size="80">準備をしています…
+
+電源ボタンを押さずに、
+しばらくお待ちください。</language>
+		<language name="KoreanKR" size="80">準備をしています…
+
+電源ボタンを押さずに、
+しばらくお待ちください。</language>
+	</row>
+
+	<row id="0130300_0" number="38" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="70">お住まいの州をえらんでください。</language>
+		<language name="EnglishUS" size="90">Please select your province or territory.</language>
+		<language name="EnglishEU" size="70">Please select the region where you live.</language>
+		<language name="FrenchEU" size="70">Sélectionnez la zone
+dans laquelle vous vivez.</language>
+		<language name="GermanEU" size="70">Bitte wähle das Land, in dem du lebst.</language>
+		<language name="ItalianEU" size="70">Seleziona l&apos;area in cui vivi.</language>
+		<language name="SpanishEU" size="70">Selecciona la zona donde vives.</language>
+		<language name="DutchEU" size="70">Kies je regio.</language>
+		<language name="FrenchUS" size="88">Sélectionnez votre province ou territoire.</language>
+		<language name="SpanishUS" size="90">Elige tu provincia o territorio.</language>
+		<language name="ChineseCN" size="70">お住まいの州をえらんでください。</language>
+		<language name="KoreanKR" size="70">お住まいの州をえらんでください。</language>
+	</row>
+
+	<row id="1000300_0" number="39" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">アルバータ州</language>
+		<language name="EnglishUS" size="90">Alberta</language>
+		<language name="EnglishEU" size="90">Alberta</language>
+		<language name="FrenchEU" size="90">Alberta</language>
+		<language name="GermanEU" size="90">Alberta</language>
+		<language name="ItalianEU" size="90">Alberta</language>
+		<language name="SpanishEU" size="90">Alberta</language>
+		<language name="DutchEU" size="90">Alberta</language>
+		<language name="FrenchUS" size="90">Alberta</language>
+		<language name="SpanishUS" size="90">Alberta</language>
+		<language name="ChineseCN" size="90">アルバータ州</language>
+		<language name="KoreanKR" size="90">アルバータ州</language>
+	</row>
+
+	<row id="1000301_0" number="40" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ブリティッシュ・コロンビア州</language>
+		<language name="EnglishUS" size="90">British Columbia</language>
+		<language name="EnglishEU" size="90">British Columbia</language>
+		<language name="FrenchEU" size="90">Colombie-Britannique</language>
+		<language name="GermanEU" size="90">British Columbia</language>
+		<language name="ItalianEU" size="90">British Columbia</language>
+		<language name="SpanishEU" size="90">Columbia Británica</language>
+		<language name="DutchEU" size="90">British Columbia</language>
+		<language name="FrenchUS" size="90">Colombie-Britannique</language>
+		<language name="SpanishUS" size="90">Columbia Británica</language>
+		<language name="ChineseCN" size="90">ブリティッシュ・コロンビア州</language>
+		<language name="KoreanKR" size="90">ブリティッシュ・コロンビア州</language>
+	</row>
+
+	<row id="1000302_0" number="41" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">マニトバ州</language>
+		<language name="EnglishUS" size="90">Manitoba</language>
+		<language name="EnglishEU" size="90">Manitoba</language>
+		<language name="FrenchEU" size="90">Manitoba</language>
+		<language name="GermanEU" size="90">Manitoba</language>
+		<language name="ItalianEU" size="90">Manitoba</language>
+		<language name="SpanishEU" size="90">Manitoba</language>
+		<language name="DutchEU" size="90">Manitoba</language>
+		<language name="FrenchUS" size="90">Manitoba</language>
+		<language name="SpanishUS" size="90">Manitoba</language>
+		<language name="ChineseCN" size="90">マニトバ州</language>
+		<language name="KoreanKR" size="90">マニトバ州</language>
+	</row>
+
+	<row id="1000303_0" number="42" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ニュー・ブランズウィック州</language>
+		<language name="EnglishUS" size="90">New Brunswick</language>
+		<language name="EnglishEU" size="90">New Brunswick</language>
+		<language name="FrenchEU" size="90">Nouveau-Brunswick</language>
+		<language name="GermanEU" size="90">New Brunswick</language>
+		<language name="ItalianEU" size="90">New Brunswick</language>
+		<language name="SpanishEU" size="90">Nuevo Brunswick</language>
+		<language name="DutchEU" size="90">New Brunswick</language>
+		<language name="FrenchUS" size="90">Nouveau-Brunswick</language>
+		<language name="SpanishUS" size="90">Nuevo Brunswick</language>
+		<language name="ChineseCN" size="90">ニュー・ブランズウィック州</language>
+		<language name="KoreanKR" size="90">ニュー・ブランズウィック州</language>
+	</row>
+
+	<row id="1000304_0" number="43" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ニューファンドランド州</language>
+		<language name="EnglishUS" size="90">Newfoundland</language>
+		<language name="EnglishEU" size="90">Newfoundland</language>
+		<language name="FrenchEU" size="90">Terre-Neuve-et-Labrador</language>
+		<language name="GermanEU" size="90">Newfoundland</language>
+		<language name="ItalianEU" size="90">Newfoundland</language>
+		<language name="SpanishEU" size="90">Terranova</language>
+		<language name="DutchEU" size="90">Newfoundland</language>
+		<language name="FrenchUS" size="90">Terre-Neuve-et-Labrador</language>
+		<language name="SpanishUS" size="90">Terranova y Labrador</language>
+		<language name="ChineseCN" size="90">ニューファンドランド州</language>
+		<language name="KoreanKR" size="90">ニューファンドランド州</language>
+	</row>
+
+	<row id="1000305_0" number="44" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ノースウェスト準州</language>
+		<language name="EnglishUS" size="90">Northwest Territories</language>
+		<language name="EnglishEU" size="90">Northwest Territories</language>
+		<language name="FrenchEU" size="90">Territoires du Nord-Ouest</language>
+		<language name="GermanEU" size="90">Northwest Territories</language>
+		<language name="ItalianEU" size="90">Northwest Territories</language>
+		<language name="SpanishEU" size="90">Territorios del Noroeste</language>
+		<language name="DutchEU" size="90">Northwest Territories</language>
+		<language name="FrenchUS" size="90">Territoires du Nord-Ouest</language>
+		<language name="SpanishUS" size="90">Territorios del Noroeste</language>
+		<language name="ChineseCN" size="90">ノースウェスト準州</language>
+		<language name="KoreanKR" size="90">ノースウェスト準州</language>
+	</row>
+
+	<row id="1000306_0" number="45" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ノバ・スコシア州</language>
+		<language name="EnglishUS" size="90">Nova Scotia</language>
+		<language name="EnglishEU" size="90">Nova Scotia</language>
+		<language name="FrenchEU" size="90">Nouvelle-Ecosse</language>
+		<language name="GermanEU" size="90">Nova Scotia</language>
+		<language name="ItalianEU" size="90">Nova Scotia</language>
+		<language name="SpanishEU" size="90">Nueva Escocia</language>
+		<language name="DutchEU" size="90">Nova Scotia</language>
+		<language name="FrenchUS" size="90">Nouvelle-Écosse</language>
+		<language name="SpanishUS" size="90">Nueva Escocia</language>
+		<language name="ChineseCN" size="90">ノバ・スコシア州</language>
+		<language name="KoreanKR" size="90">ノバ・スコシア州</language>
+	</row>
+
+	<row id="1000307_0" number="46" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ヌナブト準州</language>
+		<language name="EnglishUS" size="90">Nunavut</language>
+		<language name="EnglishEU" size="90">Nunavut</language>
+		<language name="FrenchEU" size="90">Territoire du Nunavut</language>
+		<language name="GermanEU" size="90">Nunavut</language>
+		<language name="ItalianEU" size="90">Nunavut</language>
+		<language name="SpanishEU" size="90">Nunavut</language>
+		<language name="DutchEU" size="90">Nunavut</language>
+		<language name="FrenchUS" size="90">Nunavut</language>
+		<language name="SpanishUS" size="90">Nunavut</language>
+		<language name="ChineseCN" size="90">ヌナブト準州</language>
+		<language name="KoreanKR" size="90">ヌナブト準州</language>
+	</row>
+
+	<row id="1000308_0" number="47" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">オンタリオ州</language>
+		<language name="EnglishUS" size="90">Ontario</language>
+		<language name="EnglishEU" size="90">Ontario</language>
+		<language name="FrenchEU" size="90">Ontario</language>
+		<language name="GermanEU" size="90">Ontario</language>
+		<language name="ItalianEU" size="90">Ontario</language>
+		<language name="SpanishEU" size="90">Ontario</language>
+		<language name="DutchEU" size="90">Ontario</language>
+		<language name="FrenchUS" size="90">Ontario</language>
+		<language name="SpanishUS" size="90">Ontario</language>
+		<language name="ChineseCN" size="90">オンタリオ州</language>
+		<language name="KoreanKR" size="90">オンタリオ州</language>
+	</row>
+
+	<row id="1000309_0" number="48" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">プリンス・エドワード・アイランド州</language>
+		<language name="EnglishUS" size="90">Prince Edward Island</language>
+		<language name="EnglishEU" size="90">Prince Edward Island</language>
+		<language name="FrenchEU" size="90">Ile-du-Prince-Edouard</language>
+		<language name="GermanEU" size="90">Prince Edward Island</language>
+		<language name="ItalianEU" size="90">Prince Edward Island</language>
+		<language name="SpanishEU" size="90">Isla del Príncipe Eduardo</language>
+		<language name="DutchEU" size="90">Prince Edward Island</language>
+		<language name="FrenchUS" size="90">Île-du-Prince-Édouard</language>
+		<language name="SpanishUS" size="90">Isla del Príncipe Eduardo</language>
+		<language name="ChineseCN" size="90">プリンス・エドワード・アイランド州</language>
+		<language name="KoreanKR" size="90">プリンス・エドワード・アイランド州</language>
+	</row>
+
+	<row id="1000310_0" number="49" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ケベック州</language>
+		<language name="EnglishUS" size="90">Quebec</language>
+		<language name="EnglishEU" size="90">Quebec</language>
+		<language name="FrenchEU" size="90">Québec</language>
+		<language name="GermanEU" size="90">Quebec</language>
+		<language name="ItalianEU" size="90">Quebec</language>
+		<language name="SpanishEU" size="90">Quebec</language>
+		<language name="DutchEU" size="90">Quebec</language>
+		<language name="FrenchUS" size="90">Québec</language>
+		<language name="SpanishUS" size="90">Quebec</language>
+		<language name="ChineseCN" size="90">ケベック州</language>
+		<language name="KoreanKR" size="90">ケベック州</language>
+	</row>
+
+	<row id="1000311_0" number="50" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">サスカチュワン州</language>
+		<language name="EnglishUS" size="90">Saskatchewan</language>
+		<language name="EnglishEU" size="90">Saskatchewan</language>
+		<language name="FrenchEU" size="90">Saskatchewan</language>
+		<language name="GermanEU" size="90">Saskatchewan</language>
+		<language name="ItalianEU" size="90">Saskatchewan</language>
+		<language name="SpanishEU" size="90">Saskatchewan</language>
+		<language name="DutchEU" size="90">Saskatchewan</language>
+		<language name="FrenchUS" size="90">Saskatchewan</language>
+		<language name="SpanishUS" size="90">Saskatchewan</language>
+		<language name="ChineseCN" size="90">サスカチュワン州</language>
+		<language name="KoreanKR" size="90">サスカチュワン州</language>
+	</row>
+
+	<row id="1000312_0" number="51" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">ユーコン準州</language>
+		<language name="EnglishUS" size="90">Yukon</language>
+		<language name="EnglishEU" size="90">Yukon</language>
+		<language name="FrenchEU" size="90">Territoire du Yukon</language>
+		<language name="GermanEU" size="90">Yukon</language>
+		<language name="ItalianEU" size="90">Yukon</language>
+		<language name="SpanishEU" size="90">Yukón</language>
+		<language name="DutchEU" size="90">Yukon</language>
+		<language name="FrenchUS" size="90">Yukon</language>
+		<language name="SpanishUS" size="90">Yukón</language>
+		<language name="ChineseCN" size="90">ユーコン準州</language>
+		<language name="KoreanKR" size="90">ユーコン準州</language>
+	</row>
+
+	<row id="1000400_0" number="52" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">このチャンネルの情報を見るためには
+あなたの誕生日を入力していただく
+必要があります。
+
+誕生日は任天堂に送信されません。
+年齢の確認だけに使用します。</language>
+		<language name="EnglishUS" size="90">To view information on this
+channel, you must enter your
+birth date. This information
+will not be sent to Nintendo
+and will only be used to
+confirm that you are eligible to
+view this channel.</language>
+		<language name="EnglishEU" size="90">To view information on this
+Channel, you must enter your
+date of birth. This information
+will be used only to confirm
+that you are eligible to view
+this Channel.</language>
+		<language name="FrenchEU" size="90">Pour voir les informations
+sur cette chaîne, vous devez
+saisir votre date de naissance.
+Cette information sera
+uniquement utilisée pour
+confirmer que vous avez l&apos;âge
+requis pour voir cette chaîne.</language>
+		<language name="GermanEU" size="90">Du musst dein Geburtsdatum
+eingeben, um die Informationen
+auf diesem Kanal aufzurufen.
+Deine persönlichen Daten werden
+ausschließlich dazu genutzt, um
+zu bestätigen, dass du berechtigt
+bist, diesen Kanal zu nutzen.</language>
+		<language name="ItalianEU" size="90">Per visualizzare le informazioni
+su questo titolo devi inserire
+la tua data di nascita.
+L&apos;informazione verrà utilizzata
+solo per confermare che tu
+possa vedere questo canale.</language>
+		<language name="SpanishEU" size="90">Para ver información sobre este
+título, debes introducir tu fecha
+de nacimiento. Esta información
+solo se utilizará para confirmar
+que tienes edad suficiente para
+acceder a este contenido.</language>
+		<language name="DutchEU" size="90">Je moet je geboortedatum
+invoeren om informatie over dit
+spel te kunnen bekijken. Deze
+gegevens worden alleen gebruikt
+om vast te stellen dat je oud
+genoeg bent om dit spel te
+bekijken.</language>
+		<language name="FrenchUS" size="87">Pour voir les informations sur
+cette chaîne, vous devrez entrer
+votre date de naissance dans la
+fenêtre qui suit. Cette information
+sera utilisée seulement pour
+confirmer que vous avez l&apos;âge
+requis pour voir cette chaîne.</language>
+		<language name="SpanishUS" size="90">Para ver la información de este
+canal, debes introducir tu fecha
+de nacimiento. Esta información
+solo se utilizará para confirmar
+que tienes edad suficiente para
+ver este canal.</language>
+		<language name="ChineseCN" size="90">このチャンネルの情報を見るためには
+あなたの誕生日を入力していただく
+必要があります。
+
+誕生日は任天堂に送信されません。
+年齢の確認だけに使用します。</language>
+		<language name="KoreanKR" size="90">このチャンネルの情報を見るためには
+あなたの誕生日を入力していただく
+必要があります。
+
+誕生日は任天堂に送信されません。
+年齢の確認だけに使用します。</language>
+	</row>
+
+	<row id="1000500_0" number="53" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="90">申し訳ありません。
+あなたはこのチャンネルを
+見る資格がありません。</language>
+		<language name="EnglishUS" size="90">You are not eligible to
+view this channel.</language>
+		<language name="EnglishEU" size="90">You are not eligible to
+view this Channel.</language>
+		<language name="FrenchEU" size="90">Vous n&apos;avez pas l&apos;âge requis
+pour voir cette chaîne.</language>
+		<language name="GermanEU" size="90">Du bist nicht berechtigt,
+diesen Kanal zu nutzen.</language>
+		<language name="ItalianEU" size="90">La tua età non ti consente
+di vedere questo canale.</language>
+		<language name="SpanishEU" size="90">No tienes edad suficiente para
+acceder a este contenido.</language>
+		<language name="DutchEU" size="90">Je bent niet oud genoeg
+om dit spel te bekijken.</language>
+		<language name="FrenchUS" size="90">Vous n&apos;avez pas l&apos;âge requis 
+pour voir cette chaîne.</language>
+		<language name="SpanishUS" size="90">No tienes edad suficiente
+para ver este canal.</language>
+		<language name="ChineseCN" size="90">申し訳ありません。
+あなたはこのチャンネルを
+見る資格がありません。</language>
+		<language name="KoreanKR" size="90">申し訳ありません。
+あなたはこのチャンネルを
+見る資格がありません。</language>
+	</row>
+
+	<row id="2000000_0" number="54" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">Wiiメニューにもどります。
+よろしいですか？</language>
+		<language name="EnglishUS" size="80">Would you like to return
+to the Wii Menu?</language>
+		<language name="EnglishEU" size="80">You will now return
+to the Wii Menu.
+Is this OK?</language>
+		<language name="FrenchEU" size="80">Voulez-vous retourner
+au menu Wii?</language>
+		<language name="GermanEU" size="80">Du kehrst nun zurück zum
+Wii-Menü. Einverstanden?</language>
+		<language name="ItalianEU" size="80">Stai per tornare al
+menu Wii. Va bene?</language>
+		<language name="SpanishEU" size="80">¿Quieres volver al menú de Wii?</language>
+		<language name="DutchEU" size="80">Weet je zeker dat je terug
+wilt naar het Wii-menu?</language>
+		<language name="FrenchUS" size="80">Voulez-vous retourner
+au menu Wii?</language>
+		<language name="SpanishUS" size="80">Vas a volver al Menú de Wii.
+
+¿Estás de acuerdo?</language>
+		<language name="ChineseCN" size="80">Wiiメニューにもどります。
+よろしいですか？</language>
+		<language name="KoreanKR" size="80">Wiiメニューにもどります。
+よろしいですか？</language>
+	</row>
+
+	<row id="2000100_0" number="55" back-color=",,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#000000,,,,,,#ffff00,,,,,,">
+		<comment>promotion_message_seatholder.gmm 
+からインポートされました</comment>
+		<language name="Japanese" size="80">紹介しているソフトを受信するために、
+Wiiショッピングチャンネルを開いて、
+受信ページを表示します。</language>
+		<language name="EnglishUS" size="80">You will now connect to the
+Wii Shop Channel to begin the
+download.</language>
+		<language name="EnglishEU" size="80">You will now connect to the
+Wii Shop Channel to begin the
+download. Is this OK?</language>
+		<language name="FrenchEU" size="80">Vous allez être connecté à la
+chaîne boutique Wii pour débuter
+le téléchargement. Continuer?</language>
+		<language name="GermanEU" size="80">Es wird nun eine Verbindung
+zum Wii-Shop-Kanal hergestellt,
+um den Download zu starten.
+Einverstanden?</language>
+		<language name="ItalianEU" size="80">Stai per accedere al Canale Wii Shop
+per avviare il download.
+Vuoi proseguire?</language>
+		<language name="SpanishEU" size="80">Ahora te conectarás al 
+Canal Tienda Wii para
+comenzar la descarga.
+¿Quieres continuar?</language>
+		<language name="DutchEU" size="80">Wil je verbinding maken met
+het Wii-winkelkanaal en
+beginnen met downloaden?</language>
+		<language name="FrenchUS" size="80">Vous allez vous connecter à la
+Chaîne boutique Wii pour débuter
+le téléchargement. Voulez-vous
+continuer?</language>
+		<language name="SpanishUS" size="80">Ahora te conectarás al 
+Canal Tienda Wii para
+comenzar la descarga.</language>
+		<language name="ChineseCN" size="80">紹介しているソフトを受信するために、
+Wiiショッピングチャンネルを開いて、
+受信ページを表示します。</language>
+		<language name="KoreanKR" size="80">紹介しているソフトを受信するために、
+Wiiショッピングチャンネルを開いて、
+受信ページを表示します。</language>
+	</row>
+
+	<flowchart-group-list>
+		<flowchart-group japanese="root" english="root" group-id="0" parent-id="-1"/>
+	</flowchart-group-list>
+</body>
+
+</gmml>
