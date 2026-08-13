@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-16" ?>
+<?xml-stylesheet type="text/xsl" href="" ?>
+
+<gmml version="4.6">
+
+<head>
+	<create user="yeckleyj" host="JYECKLEY-NOA@4512" date="2012-05-22T12:26:03"/>
+	<generator name="MessageEditor" version="4.9.6.5"/>
+</head>
+
+<body language="english">
+	<color>
+		<list entry="0" r="00" g="00" b="00" a="FF"/>
+		<list entry="1" r="FF" g="00" b="00" a="FF"/>
+		<list entry="2" r="00" g="FF" b="00" a="FF"/>
+		<list entry="3" r="00" g="00" b="FF" a="FF"/>
+	</color>
+
+	<tag-table>
+		<group entry="0" japanese="タググループ" english="Tag Group">
+		</group>
+
+		<group entry="254" japanese="文字列展開" english="Word">
+		</group>
+
+		<set japanese="黒" english="Black" value="FF:00:Color:0"/>
+		<set japanese="赤" english="Red" value="FF:00:Color:1"/>
+		<set japanese="緑" english="Green" value="FF:00:Color:2"/>
+		<set japanese="青" english="Blue" value="FF:00:Color:3"/>
+		<set japanese="500%" english="500%" value="FF:01:Size:500"/>
+		<set japanese="400%" english="400%" value="FF:01:Size:400"/>
+		<set japanese="300%" english="300%" value="FF:01:Size:300"/>
+		<set japanese="200%" english="200%" value="FF:01:Size:200"/>
+		<set japanese="150%" english="150%" value="FF:01:Size:150"/>
+		<set japanese="100%" english="100%" value="FF:01:Size:100"/>
+		<set japanese="75%" english="75%" value="FF:01:Size:75"/>
+		<set japanese="50%" english="50%" value="FF:01:Size:50"/>
+	</tag-table>
+
+	<columns>
+		<id position="0" width="100"/>
+		<group default=" 0:Default" position="-1" width="100">
+			<list entry="0" japanese="デフォルト" english="Default" colorID="0"/>
+		</group>
+		<number position="-1" width="100"/>
+		<comment position="-1" width="100"/>
+		<erase position="-1" width="100"/>
+		<attribute japanese="comment_jpn" english="comment_jpn" type="string" default="" position="1" width="298">
+		</attribute>
+		<attribute japanese="comment_english" english="comment_english" type="string" default="" position="2" width="223">
+		</attribute>
+		<language japanese="Japanese" english="Japanese">
+			<message position="3" width="214"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="English-tmp" english="English-tmp">
+			<message position="4" width="251"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="English_US" english="English_US">
+			<message position="5" width="268"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="English_EU" english="English_EU">
+			<message position="6" width="256"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="Spanish" english="Spanish">
+			<message position="7" width="100"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="German" english="German">
+			<message position="8" width="100"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="French" english="French">
+			<message position="9" width="100"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="Italian" english="Italian">
+			<message position="10" width="100"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+		<language japanese="Nederland" english="Nederland">
+			<message position="11" width="100"/>
+			<font default=" 0:wbf1" position="-1" width="100">
+				<list entry="0" file="..\..\Nintendo\rvl\ipl\fonts\jpuseu\wbf1.brfnt"/>
+			</font>
+			<size position="-1" width="100"/>
+			<space position="-1" width="100"/>
+			<width position="-1" width="100"/>
+			<line position="-1" width="100"/>
+		</language>
+	</columns>
+
+	<dialog left="10" top="108" right="693" bottom="793" maximized="no" rayout="Vertical2">
+		<comment-input left="693" top="628" right="1017" bottom="793" visible="no"/>
+		<tag-palette left="693" top="219" right="1037" bottom="628" visible="no"/>
+		<band id="0" index="1" style="0000" width="496"/>
+		<band id="1" index="2" style="0000" width="165"/>
+		<band id="2" index="3" style="0000" width="294"/>
+		<band id="3" index="4" style="0000" width="171"/>
+		<band id="4" index="5" style="0000" width="192"/>
+		<band id="5" index="0" style="0000" width="708"/>
+		<edit entry="0" language="Japanese" mode="Edit" spell-check="-1"/>
+		<edit entry="1" language="Japanese" mode="Preview" spell-check="-1"/>
+		<edit entry="2" language="Japanese" mode="Source" spell-check="-1"/>
+		<edit entry="3" language="Japanese" mode="Source" spell-check="-1"/>
+	</dialog>
+
+	<output default="eng_eu">
+		<target japanese="デフォルト" english="jpn" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="Japanese">
+			<group name="Default" file=".\ToNintendo\exports\jpn\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+		<target japanese="eng" english="eng" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="English_US">
+			<group name="Default" file=".\ToNintendo\exports\eng\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+		<target japanese="eng_eu" english="eng_eu" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="English_EU">
+			<group name="Default" file=".\ToNintendo\exports\eng_eu\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+		<target japanese="spa" english="spa" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="Spanish">
+			<group name="Default" file=".\ToNintendo\exports\spa\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+		<target japanese="ger" english="ger" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="German">
+			<group name="Default" file=".\ToNintendo\exports\ger\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+		<target japanese="fra" english="fra" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="French">
+			<group name="Default" file=".\ToNintendo\exports\fra\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+		<target japanese="ita" english="ita" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="Italian">
+			<group name="Default" file=".\ToNintendo\exports\ita\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+		<target japanese="ned" english="ned" endian="big" encoding="UTF-16BE" letter-list-encoding="Shift_JIS" header-file-encoding="Shift_JIS" language="Nederland">
+			<group name="Default" file=".\ToNintendo\exports\ned\eula_message.bmg"/>
+			<struct name="JMSMesgEntry" id="" message="mesgOffset">
+			</struct>
+			<entry sort="id" id-block="no" flowlabel-block="no"/>
+			<header divide="no" id-prefix="JMS_" query-prefix="JMS_QUERY_" flownode-prefix="JMS_FLOWNODE_" id="" struct="" query=""/>
+			<letter-list active="All fonts">
+			</letter-list>
+		</target>
+	</output>
+
+
+	<lock>
+		<operation add_message="no" header_setting="no" tag_setting="no" output_setting="no" display="no" sort="no" flowchart_window="no"/>
+	</lock>
+
+
+	<row id="00_0" number="0" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">インターネット接続に関するメッセージ</attribute>
+		<attribute name="comment_english">internet connection status message</attribute>
+		<language name="Japanese">インターネットに接続しています。
+しばらくお待ちください。</language>
+		<language name="English-tmp">Connecting to the Internet.
+Please wait a moment.</language>
+		<language name="English_US">Connecting to the Internet...
+Please wait a moment.</language>
+		<language name="English_EU">Connecting to the Internet...
+Please wait a moment.</language>
+		<language name="Spanish">Estableciendo la conexión
+a internet...
+Espera unos instantes.</language>
+		<language name="German">Die Internet-Verbindung wird
+aufgebaut. Bitte warten.</language>
+		<language name="French">Connexion à Internet en cours.
+Patientez un moment.</language>
+		<language name="Italian">Collegamento a Internet in corso.
+Attendi...</language>
+		<language name="Nederland">Er wordt een verbinding met het
+internet gemaakt. Een ogenblik geduld.</language>
+	</row>
+
+	<row id="01_0" number="1" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">Button</attribute>
+		<attribute name="comment_english">Button</attribute>
+		<language name="Japanese">次へ</language>
+		<language name="English-tmp">Next</language>
+		<language name="English_US">Next</language>
+		<language name="English_EU">Next</language>
+		<language name="Spanish">Aceptar</language>
+		<language name="German">Weiter</language>
+		<language name="French">Suite</language>
+		<language name="Italian">OK</language>
+		<language name="Nederland">Verder</language>
+	</row>
+
+	<row id="02_0" number="2" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">Button</attribute>
+		<attribute name="comment_english">Button</attribute>
+		<language name="Japanese">はい</language>
+		<language name="English-tmp">Yes</language>
+		<language name="English_US">Yes</language>
+		<language name="English_EU">Yes</language>
+		<language name="Spanish">Sí</language>
+		<language name="German">Ja</language>
+		<language name="French">Oui</language>
+		<language name="Italian">Sì</language>
+		<language name="Nederland">Ja</language>
+	</row>
+
+	<row id="03_0" number="3" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">Button</attribute>
+		<attribute name="comment_english">Button</attribute>
+		<language name="Japanese">いいえ</language>
+		<language name="English-tmp">No</language>
+		<language name="English_US">No</language>
+		<language name="English_EU">No</language>
+		<language name="Spanish">No</language>
+		<language name="German">Nein</language>
+		<language name="French">Non</language>
+		<language name="Italian">No</language>
+		<language name="Nederland">Nee</language>
+	</row>
+
+	<row id="04_0" number="4" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">Button</attribute>
+		<attribute name="comment_english">Button</attribute>
+		<language name="Japanese">もう一度</language>
+		<language name="English-tmp">Try Again</language>
+		<language name="English_US">Try Again</language>
+		<language name="English_EU">Try Again</language>
+		<language name="Spanish">Reintentar</language>
+		<language name="German">Neuer Versuch</language>
+		<language name="French">Réessayer</language>
+		<language name="Italian">Riprova</language>
+		<language name="Nederland">Nogmaals</language>
+	</row>
+
+	<row id="05_0" number="5" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">Button</attribute>
+		<attribute name="comment_english">Button</attribute>
+		<language name="Japanese">OK</language>
+		<language name="English-tmp">Ok</language>
+		<language name="English_US">OK</language>
+		<language name="English_EU">OK</language>
+		<language name="Spanish">Aceptar</language>
+		<language name="German">O.K.</language>
+		<language name="French">OK</language>
+		<language name="Italian">OK</language>
+		<language name="Nederland">Oké</language>
+	</row>
+
+	<row id="06_0" number="6" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">サービス契約の確認に関するメッセージ</attribute>
+		<attribute name="comment_english">user needs to 
+view the terms of use 
+(user agreement)</attribute>
+		<language name="Japanese">Wiiネットワークサービスに関する
+利用規約を確認してください。</language>
+		<language name="English-tmp">Please review the Terms of Use
+for Wii Network Services.</language>
+		<language name="English_US">You must review the User Agreements
+before using Wii network services.</language>
+		<language name="English_EU">You must review the Wii Network
+Services agreement before using
+Wii Network Services.</language>
+		<language name="Spanish">Acepta los términos del Contrato de
+Uso de los Servicios de Red de Wii.</language>
+		<language name="German">Bitte akzeptiere den Vertrag zur
+Nutzung des Wii-Internet-Services.</language>
+		<language name="French">Veuillez lire les documents légaux
+relatifs aux services en ligne Wii.</language>
+		<language name="Italian">Accetta l&apos;Accordo per l&apos;utilizzo
+dei servizi Internet Wii.</language>
+		<language name="Nederland">Lees voor gebruik de overeenkomst
+voor Wii-internetdiensten.</language>
+	</row>
+
+	<row id="07_0" number="7" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">サービス契約の確認に関するメッセージ</attribute>
+		<attribute name="comment_english">after setting up an 
+internet connection</attribute>
+		<language name="Japanese">Wiiショッピングチャンネルや
+WiiConnect24を使用するには
+インターネットの設定をした後、
+利用規約を確認してください。</language>
+		<language name="English-tmp">To use the Wii Shop Channel
+or WiiConnect24, after setting up
+the Internet connection, please review
+the Terms of Use.</language>
+		<language name="English_US">To use WiiConnect24 and the
+Wii Shop Channel, please confirm the
+user agreement after configuring
+Internet settings.</language>
+		<language name="English_EU">To use WiiConnect24 and the
+Wii Shop Channel, please confirm the
+Wii Network Services agreement after
+configuring Internet settings.</language>
+		<language name="Spanish">Para poder usar los servicios del
+Canal Tienda Wii y WiiConnect24,
+configura tu conexión a internet y
+acepta los términos del Contrato de
+Uso de los Servicios de Red de Wii.</language>
+		<language name="German">Bitte nimm die Internet-Einstellungen
+vor und akzeptiere den Vertrag zur
+Nutzung des Wii-Internet-Services,
+damit du den Wii-Shop-Kanal sowie
+WiiConnect24 nutzen kannst.</language>
+		<language name="French">Pour utiliser la chaîne boutique Wii
+et WiiConnect24, paramétrez votre
+connexion Internet puis lisez
+attentivement les documents légaux.</language>
+		<language name="Italian">Per poter utilizzare il Canale Wii Shop
+e WiiConnect24, è necessario accettare
+l&apos;Accordo per l&apos;utilizzo dei servizi
+Internet Wii dopo aver configurato la
+connessione a Internet.</language>
+		<language name="Nederland">Om het Wii-winkelkanaal en
+WiiConnect24 te gebruiken, moet je een
+verbinding met het internet instellen en
+akkoord gaan met de overeenkomst
+voor Wii-internetdiensten.</language>
+	</row>
+
+	<row id="08_0" number="8" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">オンラインサービスが利用できない旨のメッセージ</attribute>
+		<attribute name="comment_english">services currently 
+unavailable</attribute>
+		<language name="Japanese">WiiConnect24および
+Wiiショッピングチャンネルの
+サービスは現在提供していません。</language>
+		<language name="English-tmp">The WiiConnect24 and
+Wii Shop Channel services
+are not currently available.</language>
+		<language name="English_US">WiiConnect24 and Wii Shop Channel
+service is not currently being offered.</language>
+		<language name="English_EU">WiiConnect24 and Wii Shop Channel
+service is not currently being offered.</language>
+		<language name="Spanish">WiiConnect24 y el Canal Tienda Wii no
+están disponibles en este momento.</language>
+		<language name="German">WiiConnect24 sowie der Wii-Shop-Kanal
+stehen zurzeit nicht zur Verfügung.</language>
+		<language name="French">WiiConnect24 ainsi que la chaîne
+boutique Wii ne sont pas disponibles
+actuellement.</language>
+		<language name="Italian">WiiConnect24 e il Canale Wii Shop
+non sono al momento disponibili.</language>
+		<language name="Nederland">WiiConnect24 en het Wii-winkelkanaal
+zijn op dit moment niet beschikbaar.</language>
+	</row>
+
+	<row id="09_0" number="9" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">エラー: インターネット接続がありません</attribute>
+		<attribute name="comment_english">connection error message.</attribute>
+		<language name="Japanese">インターネットに接続できませんでした。</language>
+		<language name="English-tmp">Could not connect to the Internet.</language>
+		<language name="English_US">Unable to connect to the Internet.</language>
+		<language name="English_EU">Unable to connect to the Internet.</language>
+		<language name="Spanish">No se ha podido establecer
+la conexión a internet.</language>
+		<language name="German">Es konnte keine Verbindung zum
+Internet hergestellt werden.</language>
+		<language name="French">Impossible de se connecter à Internet.</language>
+		<language name="Italian">Non è stato possibile collegarsi a Internet.</language>
+		<language name="Nederland">Er kan geen verbinding worden
+gemaakt met het internet.</language>
+	</row>
+
+	<row id="10_0" number="10" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">Button</attribute>
+		<attribute name="comment_english">Button</attribute>
+		<language name="Japanese">やめる</language>
+		<language name="English-tmp">Quit</language>
+		<language name="English_US">Quit</language>
+		<language name="English_EU">Quit</language>
+		<language name="Spanish">Cancelar</language>
+		<language name="German">Abbruch</language>
+		<language name="French">Quitter</language>
+		<language name="Italian">Annulla</language>
+		<language name="Nederland">Stoppen</language>
+	</row>
+
+	<row id="11_0" number="11" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">ポップアップメッセージ
+（用語集を確認してください）</attribute>
+		<attribute name="comment_english">return to the wii menu
+message</attribute>
+		<language name="Japanese">Wiiメニューにもどります。</language>
+		<language name="English-tmp">You will be returned 
+to the Wii Menu now.</language>
+		<language name="English_US">You will now return to the Wii Menu.</language>
+		<language name="English_EU">You will now return to the Wii Menu.</language>
+		<language name="Spanish">Vuelve al menú de Wii.</language>
+		<language name="German">Rückkehr zum Wii-Menü.</language>
+		<language name="French">Retour au menu Wii.</language>
+		<language name="Italian">Ritorna al menu Wii.</language>
+		<language name="Nederland">Terug naar het Wii-menu.</language>
+	</row>
+
+	<row id="12_0" number="12" back-color=",,,,,#00ff00,#00ff00,#00ff00,,,,,,#ff0000,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,#00ff00,,,,,,">
+		<attribute name="comment_jpn">エラーコードのメッセージ。説明不要。</attribute>
+		<attribute name="comment_english">error code</attribute>
+		<language name="Japanese">エラーコード： </language>
+		<language name="English-tmp">Error Code: </language>
+		<language name="English_US">Error Code: </language>
+		<language name="English_EU">Error Code: </language>
+		<language name="Spanish">Error: </language>
+		<language name="German">Fehlercode:  </language>
+		<language name="French">Code d&apos;erreur: </language>
+		<language name="Italian">Codice errore: </language>
+		<language name="Nederland">Fout </language>
+	</row>
+
+	<row id="13_0" number="13" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Čeština</language>
+		<language name="English-tmp">Čeština</language>
+		<language name="English_US">Čeština</language>
+		<language name="English_EU">Čeština</language>
+		<language name="Spanish">Čeština</language>
+		<language name="German">Čeština</language>
+		<language name="French">Čeština</language>
+		<language name="Italian">Čeština</language>
+		<language name="Nederland">Čeština</language>
+	</row>
+
+	<row id="14_0" number="14" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Dansk</language>
+		<language name="English-tmp">Dansk</language>
+		<language name="English_US">Dansk</language>
+		<language name="English_EU">Dansk</language>
+		<language name="Spanish">Dansk</language>
+		<language name="German">Dansk</language>
+		<language name="French">Dansk</language>
+		<language name="Italian">Dansk</language>
+		<language name="Nederland">Dansk</language>
+	</row>
+
+	<row id="15_0" number="15" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Nederlands</language>
+		<language name="English-tmp">Nederlands</language>
+		<language name="English_US">Nederlands</language>
+		<language name="English_EU">Nederlands</language>
+		<language name="Spanish">Nederlands</language>
+		<language name="German">Nederlands</language>
+		<language name="French">Nederlands</language>
+		<language name="Italian">Nederlands</language>
+		<language name="Nederland">Nederlands</language>
+	</row>
+
+	<row id="16_0" number="16" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">English</language>
+		<language name="English-tmp">English</language>
+		<language name="English_US">English</language>
+		<language name="English_EU">English</language>
+		<language name="Spanish">English</language>
+		<language name="German">English</language>
+		<language name="French">English</language>
+		<language name="Italian">English</language>
+		<language name="Nederland">English</language>
+	</row>
+
+	<row id="17_0" number="17" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Suomi</language>
+		<language name="English-tmp">Suomi</language>
+		<language name="English_US">Suomi</language>
+		<language name="English_EU">Suomi</language>
+		<language name="Spanish">Suomi</language>
+		<language name="German">Suomi</language>
+		<language name="French">Suomi</language>
+		<language name="Italian">Suomi</language>
+		<language name="Nederland">Suomi</language>
+	</row>
+
+	<row id="18_0" number="18" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Français</language>
+		<language name="English-tmp">Français</language>
+		<language name="English_US">Français</language>
+		<language name="English_EU">Français</language>
+		<language name="Spanish">Français</language>
+		<language name="German">Français</language>
+		<language name="French">Français</language>
+		<language name="Italian">Français</language>
+		<language name="Nederland">Français</language>
+	</row>
+
+	<row id="19_0" number="19" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Français</language>
+		<language name="English-tmp">Français</language>
+		<language name="English_US">Français</language>
+		<language name="English_EU">Français</language>
+		<language name="Spanish">Français</language>
+		<language name="German">Français</language>
+		<language name="French">Français</language>
+		<language name="Italian">Français</language>
+		<language name="Nederland">Français</language>
+	</row>
+
+	<row id="20_0" number="20" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Deutsch</language>
+		<language name="English-tmp">Deutsch</language>
+		<language name="English_US">Deutsch</language>
+		<language name="English_EU">Deutsch</language>
+		<language name="Spanish">Deutsch</language>
+		<language name="German">Deutsch</language>
+		<language name="French">Deutsch</language>
+		<language name="Italian">Deutsch</language>
+		<language name="Nederland">Deutsch</language>
+	</row>
+
+	<row id="21_0" number="21" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">έλλέviká</language>
+		<language name="English-tmp">έλλέviká</language>
+		<language name="English_US">έλλέviká</language>
+		<language name="English_EU">έλλέviká</language>
+		<language name="Spanish">έλλέviká</language>
+		<language name="German">έλλέviká</language>
+		<language name="French">έλλέviká</language>
+		<language name="Italian">έλλέviká</language>
+		<language name="Nederland">έλλέviká</language>
+	</row>
+
+	<row id="22_0" number="22" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Magyar</language>
+		<language name="English-tmp">Magyar</language>
+		<language name="English_US">Magyar</language>
+		<language name="English_EU">Magyar</language>
+		<language name="Spanish">Magyar</language>
+		<language name="German">Magyar</language>
+		<language name="French">Magyar</language>
+		<language name="Italian">Magyar</language>
+		<language name="Nederland">Magyar</language>
+	</row>
+
+	<row id="23_0" number="23" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Italiano</language>
+		<language name="English-tmp">Italiano</language>
+		<language name="English_US">Italiano</language>
+		<language name="English_EU">Italiano</language>
+		<language name="Spanish">Italiano</language>
+		<language name="German">Italiano</language>
+		<language name="French">Italiano</language>
+		<language name="Italian">Italiano</language>
+		<language name="Nederland">Italiano</language>
+	</row>
+
+	<row id="24_0" number="24" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">日本語</language>
+		<language name="English-tmp">日本語</language>
+		<language name="English_US">日本語</language>
+		<language name="English_EU">日本語</language>
+		<language name="Spanish">日本語</language>
+		<language name="German">日本語</language>
+		<language name="French">日本語</language>
+		<language name="Italian">日本語</language>
+		<language name="Nederland">日本語</language>
+	</row>
+
+	<row id="25_0" number="25" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Norsk</language>
+		<language name="English-tmp">Norsk</language>
+		<language name="English_US">Norsk</language>
+		<language name="English_EU">Norsk</language>
+		<language name="Spanish">Norsk</language>
+		<language name="German">Norsk</language>
+		<language name="French">Norsk</language>
+		<language name="Italian">Norsk</language>
+		<language name="Nederland">Norsk</language>
+	</row>
+
+	<row id="26_0" number="26" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Polski</language>
+		<language name="English-tmp">Polski</language>
+		<language name="English_US">Polski</language>
+		<language name="English_EU">Polski</language>
+		<language name="Spanish">Polski</language>
+		<language name="German">Polski</language>
+		<language name="French">Polski</language>
+		<language name="Italian">Polski</language>
+		<language name="Nederland">Polski</language>
+	</row>
+
+	<row id="27_0" number="27" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Português</language>
+		<language name="English-tmp">Português</language>
+		<language name="English_US">Português</language>
+		<language name="English_EU">Português</language>
+		<language name="Spanish">Português</language>
+		<language name="German">Português</language>
+		<language name="French">Português</language>
+		<language name="Italian">Português</language>
+		<language name="Nederland">Português</language>
+	</row>
+
+	<row id="28_0" number="28" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">русский</language>
+		<language name="English-tmp">русский</language>
+		<language name="English_US">русский</language>
+		<language name="English_EU">русский</language>
+		<language name="Spanish">русский</language>
+		<language name="German">русский</language>
+		<language name="French">русский</language>
+		<language name="Italian">русский</language>
+		<language name="Nederland">русский</language>
+	</row>
+
+	<row id="29_0" number="29" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Slovenčina</language>
+		<language name="English-tmp">Slovenčina</language>
+		<language name="English_US">Slovenčina</language>
+		<language name="English_EU">Slovenčina</language>
+		<language name="Spanish">Slovenčina</language>
+		<language name="German">Slovenčina</language>
+		<language name="French">Slovenčina</language>
+		<language name="Italian">Slovenčina</language>
+		<language name="Nederland">Slovenčina</language>
+	</row>
+
+	<row id="30_0" number="30" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Slovenščina</language>
+		<language name="English-tmp">Slovenščina</language>
+		<language name="English_US">Slovenščina</language>
+		<language name="English_EU">Slovenščina</language>
+		<language name="Spanish">Slovenščina</language>
+		<language name="German">Slovenščina</language>
+		<language name="French">Slovenščina</language>
+		<language name="Italian">Slovenščina</language>
+		<language name="Nederland">Slovenščina</language>
+	</row>
+
+	<row id="31_0" number="31" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Español</language>
+		<language name="English-tmp">Español</language>
+		<language name="English_US">Español</language>
+		<language name="English_EU">Español</language>
+		<language name="Spanish">Español</language>
+		<language name="German">Español</language>
+		<language name="French">Español</language>
+		<language name="Italian">Español</language>
+		<language name="Nederland">Español</language>
+	</row>
+
+	<row id="32_0" number="32" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Svenska</language>
+		<language name="English-tmp">Svenska</language>
+		<language name="English_US">Svenska</language>
+		<language name="English_EU">Svenska</language>
+		<language name="Spanish">Svenska</language>
+		<language name="German">Svenska</language>
+		<language name="French">Svenska</language>
+		<language name="Italian">Svenska</language>
+		<language name="Nederland">Svenska</language>
+	</row>
+
+	<row id="33_0" number="33" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">LANGUAGE NAME DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Türkçe</language>
+		<language name="English-tmp">Türkçe</language>
+		<language name="English_US">Türkçe</language>
+		<language name="English_EU">Türkçe</language>
+		<language name="Spanish">Türkçe</language>
+		<language name="German">Türkçe</language>
+		<language name="French">Türkçe</language>
+		<language name="Italian">Türkçe</language>
+		<language name="Nederland">Türkçe</language>
+	</row>
+
+	<row id="34_0" number="34" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">PŘIJÍMÁM</language>
+		<language name="English-tmp">PŘIJÍMÁM</language>
+		<language name="English_US">PŘIJÍMÁM</language>
+		<language name="English_EU">PŘIJÍMÁM</language>
+		<language name="Spanish">PŘIJÍMÁM</language>
+		<language name="German">PŘIJÍMÁM</language>
+		<language name="French">PŘIJÍMÁM</language>
+		<language name="Italian">PŘIJÍMÁM</language>
+		<language name="Nederland">PŘIJÍMÁM</language>
+	</row>
+
+	<row id="35_0" number="35" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NEPŘIJÍMÁM</language>
+		<language name="English-tmp">NEPŘIJÍMÁM</language>
+		<language name="English_US">NEPŘIJÍMÁM</language>
+		<language name="English_EU">NEPŘIJÍMÁM</language>
+		<language name="Spanish">NEPŘIJÍMÁM</language>
+		<language name="German">NEPŘIJÍMÁM</language>
+		<language name="French">NEPŘIJÍMÁM</language>
+		<language name="Italian">NEPŘIJÍMÁM</language>
+		<language name="Nederland">NEPŘIJÍMÁM</language>
+	</row>
+
+	<row id="36_0" number="36" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">JEG ACCEPTERER</language>
+		<language name="English-tmp">JEG ACCEPTERER</language>
+		<language name="English_US">JEG ACCEPTERER</language>
+		<language name="English_EU">JEG ACCEPTERER</language>
+		<language name="Spanish">JEG ACCEPTERER</language>
+		<language name="German">JEG ACCEPTERER</language>
+		<language name="French">JEG ACCEPTERER</language>
+		<language name="Italian">JEG ACCEPTERER</language>
+		<language name="Nederland">JEG ACCEPTERER</language>
+	</row>
+
+	<row id="37_0" number="37" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">JEG ACCEPTERER IKKE</language>
+		<language name="English-tmp">JEG ACCEPTERER IKKE</language>
+		<language name="English_US">JEG ACCEPTERER IKKE</language>
+		<language name="English_EU">JEG ACCEPTERER IKKE</language>
+		<language name="Spanish">JEG ACCEPTERER IKKE</language>
+		<language name="German">JEG ACCEPTERER IKKE</language>
+		<language name="French">JEG ACCEPTERER IKKE</language>
+		<language name="Italian">JEG ACCEPTERER IKKE</language>
+		<language name="Nederland">JEG ACCEPTERER IKKE</language>
+	</row>
+
+	<row id="38_0" number="38" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">AKKOORD</language>
+		<language name="English-tmp">AKKOORD</language>
+		<language name="English_US">AKKOORD</language>
+		<language name="English_EU">AKKOORD</language>
+		<language name="Spanish">AKKOORD</language>
+		<language name="German">AKKOORD</language>
+		<language name="French">AKKOORD</language>
+		<language name="Italian">AKKOORD</language>
+		<language name="Nederland">AKKOORD</language>
+	</row>
+
+	<row id="39_0" number="39" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NIET AKKOORD</language>
+		<language name="English-tmp">NIET AKKOORD</language>
+		<language name="English_US">NIET AKKOORD</language>
+		<language name="English_EU">NIET AKKOORD</language>
+		<language name="Spanish">NIET AKKOORD</language>
+		<language name="German">NIET AKKOORD</language>
+		<language name="French">NIET AKKOORD</language>
+		<language name="Italian">NIET AKKOORD</language>
+		<language name="Nederland">NIET AKKOORD</language>
+	</row>
+
+	<row id="40_0" number="40" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">I ACCEPT</language>
+		<language name="English-tmp">I ACCEPT</language>
+		<language name="English_US">I ACCEPT</language>
+		<language name="English_EU">I ACCEPT</language>
+		<language name="Spanish">I ACCEPT</language>
+		<language name="German">I ACCEPT</language>
+		<language name="French">I ACCEPT</language>
+		<language name="Italian">I ACCEPT</language>
+		<language name="Nederland">I ACCEPT</language>
+	</row>
+
+	<row id="41_0" number="41" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">I DO NOT ACCEPT</language>
+		<language name="English-tmp">I DO NOT ACCEPT</language>
+		<language name="English_US">I DO NOT ACCEPT</language>
+		<language name="English_EU">I DO NOT ACCEPT</language>
+		<language name="Spanish">I DO NOT ACCEPT</language>
+		<language name="German">I DO NOT ACCEPT</language>
+		<language name="French">I DO NOT ACCEPT</language>
+		<language name="Italian">I DO NOT ACCEPT</language>
+		<language name="Nederland">I DO NOT ACCEPT</language>
+	</row>
+
+	<row id="42_0" number="42" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">HYVÄKSYN</language>
+		<language name="English-tmp">HYVÄKSYN</language>
+		<language name="English_US">HYVÄKSYN</language>
+		<language name="English_EU">HYVÄKSYN</language>
+		<language name="Spanish">HYVÄKSYN</language>
+		<language name="German">HYVÄKSYN</language>
+		<language name="French">HYVÄKSYN</language>
+		<language name="Italian">HYVÄKSYN</language>
+		<language name="Nederland">HYVÄKSYN</language>
+	</row>
+
+	<row id="43_0" number="43" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">EN HYVÄKSY</language>
+		<language name="English-tmp">EN HYVÄKSY</language>
+		<language name="English_US">EN HYVÄKSY</language>
+		<language name="English_EU">EN HYVÄKSY</language>
+		<language name="Spanish">EN HYVÄKSY</language>
+		<language name="German">EN HYVÄKSY</language>
+		<language name="French">EN HYVÄKSY</language>
+		<language name="Italian">EN HYVÄKSY</language>
+		<language name="Nederland">EN HYVÄKSY</language>
+	</row>
+
+	<row id="44_0" number="44" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">J&apos;ACCEPTE</language>
+		<language name="English-tmp">J&apos;ACCEPTE</language>
+		<language name="English_US">J&apos;ACCEPTE</language>
+		<language name="English_EU">J&apos;ACCEPTE</language>
+		<language name="Spanish">J&apos;ACCEPTE</language>
+		<language name="German">J&apos;ACCEPTE</language>
+		<language name="French">J&apos;ACCEPTE</language>
+		<language name="Italian">J&apos;ACCEPTE</language>
+		<language name="Nederland">J&apos;ACCEPTE</language>
+	</row>
+
+	<row id="45_0" number="45" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">JE REFUSE</language>
+		<language name="English-tmp">JE REFUSE</language>
+		<language name="English_US">JE REFUSE</language>
+		<language name="English_EU">JE REFUSE</language>
+		<language name="Spanish">JE REFUSE</language>
+		<language name="German">JE REFUSE</language>
+		<language name="French">JE REFUSE</language>
+		<language name="Italian">JE REFUSE</language>
+		<language name="Nederland">JE REFUSE</language>
+	</row>
+
+	<row id="46_0" number="46" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">J&apos;ACCEPTE</language>
+		<language name="English-tmp">J&apos;ACCEPTE</language>
+		<language name="English_US">J&apos;ACCEPTE</language>
+		<language name="English_EU">J&apos;ACCEPTE</language>
+		<language name="Spanish">J&apos;ACCEPTE</language>
+		<language name="German">J&apos;ACCEPTE</language>
+		<language name="French">J&apos;ACCEPTE</language>
+		<language name="Italian">J&apos;ACCEPTE</language>
+		<language name="Nederland">J&apos;ACCEPTE</language>
+	</row>
+
+	<row id="47_0" number="47" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">JE N&apos;ACCEPTE PAS</language>
+		<language name="English-tmp">JE N&apos;ACCEPTE PAS</language>
+		<language name="English_US">JE N&apos;ACCEPTE PAS</language>
+		<language name="English_EU">JE N&apos;ACCEPTE PAS</language>
+		<language name="Spanish">JE N&apos;ACCEPTE PAS</language>
+		<language name="German">JE N&apos;ACCEPTE PAS</language>
+		<language name="French">JE N&apos;ACCEPTE PAS</language>
+		<language name="Italian">JE N&apos;ACCEPTE PAS</language>
+		<language name="Nederland">JE N&apos;ACCEPTE PAS</language>
+	</row>
+
+	<row id="48_0" number="48" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ICH AKZEPTIERE</language>
+		<language name="English-tmp">ICH AKZEPTIERE</language>
+		<language name="English_US">ICH AKZEPTIERE</language>
+		<language name="English_EU">ICH AKZEPTIERE</language>
+		<language name="Spanish">ICH AKZEPTIERE</language>
+		<language name="German">ICH AKZEPTIERE</language>
+		<language name="French">ICH AKZEPTIERE</language>
+		<language name="Italian">ICH AKZEPTIERE</language>
+		<language name="Nederland">ICH AKZEPTIERE</language>
+	</row>
+
+	<row id="49_0" number="49" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ICH AKZEPTIERE NICHT</language>
+		<language name="English-tmp">ICH AKZEPTIERE NICHT</language>
+		<language name="English_US">ICH AKZEPTIERE NICHT</language>
+		<language name="English_EU">ICH AKZEPTIERE NICHT</language>
+		<language name="Spanish">ICH AKZEPTIERE NICHT</language>
+		<language name="German">ICH AKZEPTIERE NICHT</language>
+		<language name="French">ICH AKZEPTIERE NICHT</language>
+		<language name="Italian">ICH AKZEPTIERE NICHT</language>
+		<language name="Nederland">ICH AKZEPTIERE NICHT</language>
+	</row>
+
+	<row id="50_0" number="50" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="English-tmp">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="English_US">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="English_EU">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="Spanish">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="German">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="French">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="Italian">ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="Nederland">ΑΠΟΔΕΧΟΜΑΙ</language>
+	</row>
+
+	<row id="51_0" number="51" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="English-tmp">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="English_US">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="English_EU">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="Spanish">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="German">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="French">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="Italian">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+		<language name="Nederland">ΔΕΝ ΑΠΟΔΕΧΟΜΑΙ</language>
+	</row>
+
+	<row id="52_0" number="52" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ELFOGADOM</language>
+		<language name="English-tmp">ELFOGADOM</language>
+		<language name="English_US">ELFOGADOM</language>
+		<language name="English_EU">ELFOGADOM</language>
+		<language name="Spanish">ELFOGADOM</language>
+		<language name="German">ELFOGADOM</language>
+		<language name="French">ELFOGADOM</language>
+		<language name="Italian">ELFOGADOM</language>
+		<language name="Nederland">ELFOGADOM</language>
+	</row>
+
+	<row id="53_0" number="53" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NEM FOGADOM EL</language>
+		<language name="English-tmp">NEM FOGADOM EL</language>
+		<language name="English_US">NEM FOGADOM EL</language>
+		<language name="English_EU">NEM FOGADOM EL</language>
+		<language name="Spanish">NEM FOGADOM EL</language>
+		<language name="German">NEM FOGADOM EL</language>
+		<language name="French">NEM FOGADOM EL</language>
+		<language name="Italian">NEM FOGADOM EL</language>
+		<language name="Nederland">NEM FOGADOM EL</language>
+	</row>
+
+	<row id="54_0" number="54" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ACCETTO</language>
+		<language name="English-tmp">ACCETTO</language>
+		<language name="English_US">ACCETTO</language>
+		<language name="English_EU">ACCETTO</language>
+		<language name="Spanish">ACCETTO</language>
+		<language name="German">ACCETTO</language>
+		<language name="French">ACCETTO</language>
+		<language name="Italian">ACCETTO</language>
+		<language name="Nederland">ACCETTO</language>
+	</row>
+
+	<row id="55_0" number="55" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NON ACCETTO</language>
+		<language name="English-tmp">NON ACCETTO</language>
+		<language name="English_US">NON ACCETTO</language>
+		<language name="English_EU">NON ACCETTO</language>
+		<language name="Spanish">NON ACCETTO</language>
+		<language name="German">NON ACCETTO</language>
+		<language name="French">NON ACCETTO</language>
+		<language name="Italian">NON ACCETTO</language>
+		<language name="Nederland">NON ACCETTO</language>
+	</row>
+
+	<row id="56_0" number="56" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">同意します</language>
+		<language name="English-tmp">同意します</language>
+		<language name="English_US">同意します</language>
+		<language name="English_EU">同意します</language>
+		<language name="Spanish">同意します</language>
+		<language name="German">同意します</language>
+		<language name="French">同意します</language>
+		<language name="Italian">同意します</language>
+		<language name="Nederland">同意します</language>
+	</row>
+
+	<row id="57_0" number="57" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">同意しません</language>
+		<language name="English-tmp">同意しません</language>
+		<language name="English_US">同意しません</language>
+		<language name="English_EU">同意しません</language>
+		<language name="Spanish">同意しません</language>
+		<language name="German">同意しません</language>
+		<language name="French">同意しません</language>
+		<language name="Italian">同意しません</language>
+		<language name="Nederland">同意しません</language>
+	</row>
+
+	<row id="58_0" number="58" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">GODTATT</language>
+		<language name="English-tmp">GODTATT</language>
+		<language name="English_US">GODTATT</language>
+		<language name="English_EU">GODTATT</language>
+		<language name="Spanish">GODTATT</language>
+		<language name="German">GODTATT</language>
+		<language name="French">GODTATT</language>
+		<language name="Italian">GODTATT</language>
+		<language name="Nederland">GODTATT</language>
+	</row>
+
+	<row id="59_0" number="59" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">IKKE GODTATT</language>
+		<language name="English-tmp">IKKE GODTATT</language>
+		<language name="English_US">IKKE GODTATT</language>
+		<language name="English_EU">IKKE GODTATT</language>
+		<language name="Spanish">IKKE GODTATT</language>
+		<language name="German">IKKE GODTATT</language>
+		<language name="French">IKKE GODTATT</language>
+		<language name="Italian">IKKE GODTATT</language>
+		<language name="Nederland">IKKE GODTATT</language>
+	</row>
+
+	<row id="60_0" number="60" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ZGADZAM SIĘ</language>
+		<language name="English-tmp">ZGADZAM SIĘ</language>
+		<language name="English_US">ZGADZAM SIĘ</language>
+		<language name="English_EU">ZGADZAM SIĘ</language>
+		<language name="Spanish">ZGADZAM SIĘ</language>
+		<language name="German">ZGADZAM SIĘ</language>
+		<language name="French">ZGADZAM SIĘ</language>
+		<language name="Italian">ZGADZAM SIĘ</language>
+		<language name="Nederland">ZGADZAM SIĘ</language>
+	</row>
+
+	<row id="61_0" number="61" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NIE ZGADZAM SIĘ</language>
+		<language name="English-tmp">NIE ZGADZAM SIĘ</language>
+		<language name="English_US">NIE ZGADZAM SIĘ</language>
+		<language name="English_EU">NIE ZGADZAM SIĘ</language>
+		<language name="Spanish">NIE ZGADZAM SIĘ</language>
+		<language name="German">NIE ZGADZAM SIĘ</language>
+		<language name="French">NIE ZGADZAM SIĘ</language>
+		<language name="Italian">NIE ZGADZAM SIĘ</language>
+		<language name="Nederland">NIE ZGADZAM SIĘ</language>
+	</row>
+
+	<row id="62_0" number="62" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ACEITO</language>
+		<language name="English-tmp">ACEITO</language>
+		<language name="English_US">ACEITO</language>
+		<language name="English_EU">ACEITO</language>
+		<language name="Spanish">ACEITO</language>
+		<language name="German">ACEITO</language>
+		<language name="French">ACEITO</language>
+		<language name="Italian">ACEITO</language>
+		<language name="Nederland">ACEITO</language>
+	</row>
+
+	<row id="63_0" number="63" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NÃO ACEITO</language>
+		<language name="English-tmp">NÃO ACEITO</language>
+		<language name="English_US">NÃO ACEITO</language>
+		<language name="English_EU">NÃO ACEITO</language>
+		<language name="Spanish">NÃO ACEITO</language>
+		<language name="German">NÃO ACEITO</language>
+		<language name="French">NÃO ACEITO</language>
+		<language name="Italian">NÃO ACEITO</language>
+		<language name="Nederland">NÃO ACEITO</language>
+	</row>
+
+	<row id="64_0" number="64" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Я СОГЛАСЕН</language>
+		<language name="English-tmp">Я СОГЛАСЕН</language>
+		<language name="English_US">Я СОГЛАСЕН</language>
+		<language name="English_EU">Я СОГЛАСЕН</language>
+		<language name="Spanish">Я СОГЛАСЕН</language>
+		<language name="German">Я СОГЛАСЕН</language>
+		<language name="French">Я СОГЛАСЕН</language>
+		<language name="Italian">Я СОГЛАСЕН</language>
+		<language name="Nederland">Я СОГЛАСЕН</language>
+	</row>
+
+	<row id="65_0" number="65" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">Я НЕ СОГЛАСЕН</language>
+		<language name="English-tmp">Я НЕ СОГЛАСЕН</language>
+		<language name="English_US">Я НЕ СОГЛАСЕН</language>
+		<language name="English_EU">Я НЕ СОГЛАСЕН</language>
+		<language name="Spanish">Я НЕ СОГЛАСЕН</language>
+		<language name="German">Я НЕ СОГЛАСЕН</language>
+		<language name="French">Я НЕ СОГЛАСЕН</language>
+		<language name="Italian">Я НЕ СОГЛАСЕН</language>
+		<language name="Nederland">Я НЕ СОГЛАСЕН</language>
+	</row>
+
+	<row id="66_0" number="66" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">SÚHLASÍM</language>
+		<language name="English-tmp">SÚHLASÍM</language>
+		<language name="English_US">SÚHLASÍM</language>
+		<language name="English_EU">SÚHLASÍM</language>
+		<language name="Spanish">SÚHLASÍM</language>
+		<language name="German">SÚHLASÍM</language>
+		<language name="French">SÚHLASÍM</language>
+		<language name="Italian">SÚHLASÍM</language>
+		<language name="Nederland">SÚHLASÍM</language>
+	</row>
+
+	<row id="67_0" number="67" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NESÚHLASÍM</language>
+		<language name="English-tmp">NESÚHLASÍM</language>
+		<language name="English_US">NESÚHLASÍM</language>
+		<language name="English_EU">NESÚHLASÍM</language>
+		<language name="Spanish">NESÚHLASÍM</language>
+		<language name="German">NESÚHLASÍM</language>
+		<language name="French">NESÚHLASÍM</language>
+		<language name="Italian">NESÚHLASÍM</language>
+		<language name="Nederland">NESÚHLASÍM</language>
+	</row>
+
+	<row id="68_0" number="68" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">SPREJMEM</language>
+		<language name="English-tmp">SPREJMEM</language>
+		<language name="English_US">SPREJMEM</language>
+		<language name="English_EU">SPREJMEM</language>
+		<language name="Spanish">SPREJMEM</language>
+		<language name="German">SPREJMEM</language>
+		<language name="French">SPREJMEM</language>
+		<language name="Italian">SPREJMEM</language>
+		<language name="Nederland">SPREJMEM</language>
+	</row>
+
+	<row id="69_0" number="69" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NE SPREJMEM</language>
+		<language name="English-tmp">NE SPREJMEM</language>
+		<language name="English_US">NE SPREJMEM</language>
+		<language name="English_EU">NE SPREJMEM</language>
+		<language name="Spanish">NE SPREJMEM</language>
+		<language name="German">NE SPREJMEM</language>
+		<language name="French">NE SPREJMEM</language>
+		<language name="Italian">NE SPREJMEM</language>
+		<language name="Nederland">NE SPREJMEM</language>
+	</row>
+
+	<row id="70_0" number="70" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">ACEPTO</language>
+		<language name="English-tmp">ACEPTO</language>
+		<language name="English_US">ACEPTO</language>
+		<language name="English_EU">ACEPTO</language>
+		<language name="Spanish">ACEPTO</language>
+		<language name="German">ACEPTO</language>
+		<language name="French">ACEPTO</language>
+		<language name="Italian">ACEPTO</language>
+		<language name="Nederland">ACEPTO</language>
+	</row>
+
+	<row id="71_0" number="71" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">NO ACEPTO</language>
+		<language name="English-tmp">NO ACEPTO</language>
+		<language name="English_US">NO ACEPTO</language>
+		<language name="English_EU">NO ACEPTO</language>
+		<language name="Spanish">NO ACEPTO</language>
+		<language name="German">NO ACEPTO</language>
+		<language name="French">NO ACEPTO</language>
+		<language name="Italian">NO ACEPTO</language>
+		<language name="Nederland">NO ACEPTO</language>
+	</row>
+
+	<row id="72_0" number="72" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">JAG ACCEPTERAR</language>
+		<language name="English-tmp">JAG ACCEPTERAR</language>
+		<language name="English_US">JAG ACCEPTERAR</language>
+		<language name="English_EU">JAG ACCEPTERAR</language>
+		<language name="Spanish">JAG ACCEPTERAR</language>
+		<language name="German">JAG ACCEPTERAR</language>
+		<language name="French">JAG ACCEPTERAR</language>
+		<language name="Italian">JAG ACCEPTERAR</language>
+		<language name="Nederland">JAG ACCEPTERAR</language>
+	</row>
+
+	<row id="73_0" number="73" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">JAG ACCEPTERAR INTE</language>
+		<language name="English-tmp">JAG ACCEPTERAR INTE</language>
+		<language name="English_US">JAG ACCEPTERAR INTE</language>
+		<language name="English_EU">JAG ACCEPTERAR INTE</language>
+		<language name="Spanish">JAG ACCEPTERAR INTE</language>
+		<language name="German">JAG ACCEPTERAR INTE</language>
+		<language name="French">JAG ACCEPTERAR INTE</language>
+		<language name="Italian">JAG ACCEPTERAR INTE</language>
+		<language name="Nederland">JAG ACCEPTERAR INTE</language>
+	</row>
+
+	<row id="74_0" number="74" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">KABUL EDİYORUM</language>
+		<language name="English-tmp">KABUL EDİYORUM</language>
+		<language name="English_US">KABUL EDİYORUM</language>
+		<language name="English_EU">KABUL EDİYORUM</language>
+		<language name="Spanish">KABUL EDİYORUM</language>
+		<language name="German">KABUL EDİYORUM</language>
+		<language name="French">KABUL EDİYORUM</language>
+		<language name="Italian">KABUL EDİYORUM</language>
+		<language name="Nederland">KABUL EDİYORUM</language>
+	</row>
+
+	<row id="75_0" number="75" back-color=",,,,,#ff0000,#ff0000,#ffff00,,,,,,#ff0000,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,#ffff00,,,,,,">
+		<attribute name="comment_jpn">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<attribute name="comment_english">TEXT IN ANOTHER LANGUAGE
+DO NOT TRANSLATE</attribute>
+		<language name="Japanese">KABUL ETMİYORUM</language>
+		<language name="English-tmp">KABUL ETMİYORUM</language>
+		<language name="English_US">KABUL ETMİYORUM</language>
+		<language name="English_EU">KABUL ETMİYORUM</language>
+		<language name="Spanish">KABUL ETMİYORUM</language>
+		<language name="German">KABUL ETMİYORUM</language>
+		<language name="French">KABUL ETMİYORUM</language>
+		<language name="Italian">KABUL ETMİYORUM</language>
+		<language name="Nederland">KABUL ETMİYORUM</language>
+	</row>
+
+	<flowchart-group-list>
+		<flowchart-group japanese="root" english="root" group-id="0" parent-id="-1"/>
+	</flowchart-group-list>
+</body>
+
+</gmml>
